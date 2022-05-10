@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>shelterOwner</class>
+ <widget class="QDialog" name="shelterOwner">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>550</width>
+    <height>504</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(239, 255, 166);</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QStackedWidget" name="stackedWidget">
+     <property name="currentIndex">
+      <number>2</number>
+     </property>
+     <widget class="QWidget" name="page">
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <item>
+        <widget class="QPushButton" name="addDeletePet">
+         <property name="styleSheet">
+          <string notr="true">background-color:rgb(120, 255, 147);
+font: 14pt &quot;Arial Rounded MT Bold&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Add/Delete Pet</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton">
+         <property name="styleSheet">
+          <string notr="true">background-color:rgb(120, 255, 147);
+font: 14pt &quot;Arial Rounded MT Bold&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Update Pet</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="addingPet">
+      <layout class="QVBoxLayout" name="verticalLayout_5">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <item>
+          <widget class="QLabel" name="label_8">
+           <property name="styleSheet">
+            <string notr="true">font: 14pt &quot;Arial Rounded MT Bold&quot;;</string>
+           </property>
+           <property name="text">
+            <string>NEW PET</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_2">
+           <item>
+            <widget class="QLabel" name="label">
+             <property name="text">
+              <string>Pet Name</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="Name"/>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_2">
+             <property name="text">
+              <string>Date of Birth</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="DOB"/>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_7">
+             <property name="text">
+              <string>Sex:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="Sex"/>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_3">
+             <property name="text">
+              <string>Pet Status</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="Status"/>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_9">
+             <property name="text">
+              <string>Type of Pet:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="petType"/>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_4">
+             <property name="text">
+              <string>Breed</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="Breed"/>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_5">
+             <property name="text">
+              <string>Health</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_13">
+             <property name="text">
+              <string>(Please insert either: &quot;Perfect&quot;,&quot;Mild allergies&quot;,&quot;medication needed&quot;,&quot;needs physical therapy&quot;, &quot;Terminal&quot;)</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="Health"/>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_6">
+             <property name="text">
+              <string>Shelter ID</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="shelterNum"/>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout">
+           <item>
+            <widget class="QPushButton" name="Add">
+             <property name="styleSheet">
+              <string notr="true">background-color:rgb(120, 255, 147);
+font: 14pt &quot;Arial Rounded MT Bold&quot;;</string>
+             </property>
+             <property name="text">
+              <string>Add Pet</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="Delete">
+             <property name="styleSheet">
+              <string notr="true">background-color:rgb(120, 255, 147);
+font: 14pt &quot;Arial Rounded MT Bold&quot;;</string>
+             </property>
+             <property name="text">
+              <string>Delete Pet</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="NextPage">
+             <property name="styleSheet">
+              <string notr="true">background-color:rgb(110, 225, 137);
+font: 14pt &quot;Arial Rounded MT Bold&quot;;</string>
+             </property>
+             <property name="text">
+              <string>Back to Manage Pets</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="page_2">
+      <layout class="QVBoxLayout" name="verticalLayout_7">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_6">
+         <item>
+          <widget class="QLabel" name="label_10">
+           <property name="styleSheet">
+            <string notr="true">font: 14pt &quot;Arial Rounded MT Bold&quot;;</string>
+           </property>
+           <property name="text">
+            <string>Pet Name</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEdit_4"/>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_11">
+           <property name="styleSheet">
+            <string notr="true">font: 14pt &quot;Arial Rounded MT Bold&quot;;</string>
+           </property>
+           <property name="text">
+            <string>Health Update:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_12">
+           <property name="styleSheet">
+            <string notr="true">font: 6pt &quot;Arial Rounded MT Bold&quot;;</string>
+           </property>
+           <property name="text">
+            <string>(Please insert either: &quot;Perfect&quot;,&quot;Mild allergies&quot;,&quot;medication needed&quot;,&quot;needs physical therapy&quot;,&quot;Terminal&quot;)</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEdit_3"/>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_2">
+           <item>
+            <widget class="QPushButton" name="updatePetButton">
+             <property name="styleSheet">
+              <string notr="true">background-color:rgb(120, 255, 147);
+font: 14pt &quot;Arial Rounded MT Bold&quot;;</string>
+             </property>
+             <property name="text">
+              <string>UPDATE PET</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="updateBackButton">
+             <property name="styleSheet">
+              <string notr="true">background-color:rgb(110, 225, 137);
+font: 14pt &quot;Arial Rounded MT Bold&quot;;</string>
+             </property>
+             <property name="text">
+              <string>Back to Manage Pets</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
