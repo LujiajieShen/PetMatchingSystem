@@ -17,7 +17,7 @@ public:
     std::string color;
     int value;
     std::string condition;
-    //   std::list<std::string, std::string> listOfConditions;//list of string pairs
+    std::list<std::string, std::string> listOfConditions;//list of string pairs
     int conditionCase;
 
     void updateName(std::string newName);
