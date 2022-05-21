@@ -22,7 +22,7 @@ public:
 
     void updateName(std::string newName);
     void updateAge(int newAge);
-    void updateHealth(std::string typeOfCondition,std::string nameOfCondition);
+    //void updateHealth(std::string typeOfCondition,std::string nameOfCondition);
     int  calcValue();
     std::string displayInfo();
 
