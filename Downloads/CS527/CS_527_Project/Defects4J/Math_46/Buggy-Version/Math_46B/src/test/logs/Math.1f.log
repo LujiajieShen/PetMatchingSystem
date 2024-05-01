@@ -1,0 +1,13 @@
+######  Start test generation  /Users/eeeeeeshen/Downloads/Defect4J/defects4j/framework/bin/gen_tests.pl: 2024-04-09 16:49:44  ######
+Mode: regression
+Parameters:
+ -g evosuite
+ -p Math
+ -v 1f
+ -n 1
+ -b 60
+ -c /Users/eeeeeeshen/Downloads/Defect4J/defects4j/framework/projects/Math/modified_classes/1.src
+ -s 1001
+Created test suite archive: Math-1f-evosuite.1.tar.bz2
+Moved test suite archive to output directory: /Users/eeeeeeshen/Downloads/CS527/CS_527_Project/Defects4J/Math_46/Buggy-Version/Math_46B/src/test/Math/evosuite/1
+######  End test generation  /Users/eeeeeeshen/Downloads/Defect4J/defects4j/framework/bin/gen_tests.pl: 2024-04-09 16:54:18  ######

@@ -1,0 +1,20 @@
+Binary files defects4j_projects/Chart_4_buggy/.svn/wc.db and defects4j_projects/Chart_4_fixed/.svn/wc.db differ
+diff -ruN defects4j_projects/Chart_4_buggy/source/org/jfree/chart/plot/XYPlot.java defects4j_projects/Chart_4_fixed/source/org/jfree/chart/plot/XYPlot.java
+--- defects4j_projects/Chart_4_buggy/source/org/jfree/chart/plot/XYPlot.java	2024-03-04 23:45:31
++++ defects4j_projects/Chart_4_fixed/source/org/jfree/chart/plot/XYPlot.java	2024-03-04 23:45:36
+@@ -4490,6 +4490,7 @@
+                     }
+                 }
+
++                if (r != null) {
+                     Collection c = r.getAnnotations();
+                     Iterator i = c.iterator();
+                     while (i.hasNext()) {
+@@ -4498,6 +4499,7 @@
+                             includedAnnotations.add(a);
+                         }
+                     }
++                }
+             }
+         }
+

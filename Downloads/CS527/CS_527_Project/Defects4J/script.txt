@@ -1,0 +1,18 @@
+gen_tests.pl -g randoop -p Jsoup -v 1b -n 1 -o /home/rexar/UIUC/CS527/CS_527_Project/Defect4J/tests -b 30
+gen_tests.pl -g randoop -p Jsoup -v 1f -n 1 -o /home/rexar/UIUC/CS527/CS_527_Project/Defect4J/tests -b 30
+gen_tests.pl -g randoop -p Jsoup -v 2b -n 1 -o /home/rexar/UIUC/CS527/CS_527_Project/Defect4J/tests -b 30
+gen_tests.pl -g randoop -p Jsoup -v 2f -n 1 -o /home/rexar/UIUC/CS527/CS_527_Project/Defect4J/tests -b 30
+gen_tests.pl -g randoop -p Jsoup -v 3b -n 1 -o /home/rexar/UIUC/CS527/CS_527_Project/Defect4J/tests -b 30
+gen_tests.pl -g randoop -p Jsoup -v 3f -n 1 -o /home/rexar/UIUC/CS527/CS_527_Project/Defect4J/tests -b 30
+gen_tests.pl -g randoop -p Jsoup -v 9b -n 1 -o /home/rexar/UIUC/CS527/CS_527_Project/Defect4J/tests -b 30
+gen_tests.pl -g randoop -p Jsoup -v 9f -n 1 -o /home/rexar/UIUC/CS527/CS_527_Project/Defect4J/tests -b 30
+run_coverage.pl -p Jsoup -d /home/rexar/UIUC/CS527/CS_527_Project/Defect4J/tests/Jsoup/randoop/1 -o report
+gen_tests.pl -g evosuite -p Jsoup -v 1b -n 1 -o /home/rexar/UIUC/CS527/CS_527_Project/Defect4J/tests -b 30
+gen_tests.pl -g evosuite -p Jsoup -v 1f -n 1 -o /home/rexar/UIUC/CS527/CS_527_Project/Defect4J/tests -b 30
+gen_tests.pl -g evosuite -p Jsoup -v 2b -n 1 -o /home/rexar/UIUC/CS527/CS_527_Project/Defect4J/tests -b 30
+gen_tests.pl -g evosuite -p Jsoup -v 2f -n 1 -o /home/rexar/UIUC/CS527/CS_527_Project/Defect4J/tests -b 30
+gen_tests.pl -g evosuite -p Jsoup -v 3b -n 1 -o /home/rexar/UIUC/CS527/CS_527_Project/Defect4J/tests -b 30
+gen_tests.pl -g evosuite -p Jsoup -v 3f -n 1 -o /home/rexar/UIUC/CS527/CS_527_Project/Defect4J/tests -b 30
+gen_tests.pl -g evosuite -p Jsoup -v 9b -n 1 -o /home/rexar/UIUC/CS527/CS_527_Project/Defect4J/tests -b 30
+gen_tests.pl -g evosuite -p Jsoup -v 9f -n 1 -o /home/rexar/UIUC/CS527/CS_527_Project/Defect4J/tests -b 30
+run_coverage.pl -p Jsoup -d /home/rexar/UIUC/CS527/CS_527_Project/Defect4J/tests/Jsoup/evosuite/1 -o report

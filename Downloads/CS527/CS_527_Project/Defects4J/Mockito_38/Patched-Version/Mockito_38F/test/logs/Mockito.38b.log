@@ -1,0 +1,13 @@
+######  Start test generation  /Users/eeeeeeshen/Downloads/Defect4J/defects4j/framework/bin/gen_tests.pl: 2024-04-09 16:03:15  ######
+Mode: regression
+Parameters:
+ -g evosuite
+ -p Mockito
+ -v 38b
+ -n 1
+ -b 60
+ -c /Users/eeeeeeshen/Downloads/Defect4J/defects4j/framework/projects/Mockito/modified_classes/38.src
+ -s 1038
+Created test suite archive: Mockito-38b-evosuite.1.tar.bz2
+Moved test suite archive to output directory: /Users/eeeeeeshen/Downloads/CS527/CS_527_Project/Defects4J/Mockito_38/Patched-Version/Mockito_38F/test/Mockito/evosuite/1
+######  End test generation  /Users/eeeeeeshen/Downloads/Defect4J/defects4j/framework/bin/gen_tests.pl: 2024-04-09 16:03:53  ######

@@ -1,0 +1,49 @@
+diff --git a/src/java/org/apache/commons/cli/Parser.java b/src/java/org/apache/commons/cli/Parser.java
+index 3bd0a60..2843ef1 100644
+--- a/src/java/org/apache/commons/cli/Parser.java
++++ b/src/java/org/apache/commons/cli/Parser.java
+@@ -295,7 +295,10 @@ public abstract class Parser implements CommandLineParser {
+         if (requiredOptions.size() > 0)
+         {
+             Iterator iter = requiredOptions.iterator();
+-            StringBuffer buff = new StringBuffer();
++            StringBuffer buff = new StringBuffer("Missing required option");
++            buff.append(requiredOptions.size() == 1 ? "" : "s");
++            buff.append(": ");
++
+ 
+             // loop through the required options
+             while (iter.hasNext())
+diff --git a/src/test/org/apache/commons/cli/OptionsTest.java b/src/test/org/apache/commons/cli/OptionsTest.java
+index 7fad195..d9cfb76 100644
+--- a/src/test/org/apache/commons/cli/OptionsTest.java
++++ b/src/test/org/apache/commons/cli/OptionsTest.java
+@@ -94,7 +94,28 @@ public class OptionsTest extends TestCase
+         assertTrue("Everything in help should be in all",allOptions.containsAll(helpOptions));        
+     }
+ 
++    public void testMissingOptionException() throws ParseException {
++        Options options = new Options();
++        options.addOption(OptionBuilder.isRequired().create("f"));
++        try {
++            new PosixParser().parse(options, new String[0]);
++            fail("Expected MissingOptionException to be thrown");
++        } catch (MissingOptionException e) {
++            assertEquals("Missing required option: f", e.getMessage());
++        }
++    }
+ 
++    public void testMissingOptionsException() throws ParseException {
++        Options options = new Options();
++        options.addOption(OptionBuilder.isRequired().create("f"));
++        options.addOption(OptionBuilder.isRequired().create("x"));
++        try {
++            new PosixParser().parse(options, new String[0]);
++            fail("Expected MissingOptionException to be thrown");
++        } catch (MissingOptionException e) {
++            assertEquals("Missing required options: fx", e.getMessage());
++        }
++    }
+ 
+ }
+ 

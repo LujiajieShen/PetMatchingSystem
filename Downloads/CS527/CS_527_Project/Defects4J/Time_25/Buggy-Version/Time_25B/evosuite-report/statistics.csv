@@ -1,0 +1,6 @@
+TARGET_CLASS,criterion,Coverage,Total_Goals,Covered_Goals
+org.joda.time.DateTimeZone,BRANCH,0.8181818181818182,176,144
+org.joda.time.DateTimeZone,BRANCH,0.7954545454545454,176,140
+org.joda.time.DateTimeZone,BRANCH,0.7954545454545454,176,138
+org.joda.time.DateTimeZone,BRANCH,0.8011363636363636,176,138
+org.mockito.internal.verification.argumentmatching.ArgumentMatchingTool,BRANCH,0.06666666666666667,15,1

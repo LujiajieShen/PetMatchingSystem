@@ -1,0 +1,20 @@
+######  Start code coverage analysis  /home/rexar/UIUC/CS527/CS_527_Project/Defects4J/defects4j/framework/bin/run_coverage.pl: 2024-04-09 16:29:43  ######
+ - Executing test suite: Gson-2f-evosuite.1.tar.bz2
+ - Executing test suite: Gson-2b-evosuite.1.tar.bz2
+ - Executing test suite: Gson-3f-evosuite.1.tar.bz2
+ - Executing test suite: Gson-3b-evosuite.1.tar.bz2
+ - Executing test suite: Gson-4b-evosuite.1.tar.bz2
+ - Executing test suite: Gson-1b-evosuite.1.tar.bz2
+ - Executing test suite: Gson-4f-evosuite.1.tar.bz2
+ - Executing test suite: Gson-1f-evosuite.1.tar.bz2
+######  End code coverage analysis  /home/rexar/UIUC/CS527/CS_527_Project/Defects4J/defects4j/framework/bin/run_coverage.pl: 2024-04-09 16:30:50  ######
+######  Start code coverage analysis  /home/rexar/UIUC/CS527/CS_527_Project/Defects4J/defects4j/framework/bin/run_coverage.pl: 2024-04-09 16:40:15  ######
+ - Executing test suite: Gson-4f-randoop.1.tar.bz2
+ - Executing test suite: Gson-4b-randoop.1.tar.bz2
+ - Executing test suite: Gson-3b-randoop.1.tar.bz2
+ - Executing test suite: Gson-3f-randoop.1.tar.bz2
+ - Executing test suite: Gson-2b-randoop.1.tar.bz2
+ - Executing test suite: Gson-2f-randoop.1.tar.bz2
+ - Executing test suite: Gson-1f-randoop.1.tar.bz2
+ - Executing test suite: Gson-1b-randoop.1.tar.bz2
+######  End code coverage analysis  /home/rexar/UIUC/CS527/CS_527_Project/Defects4J/defects4j/framework/bin/run_coverage.pl: 2024-04-09 16:41:20  ######

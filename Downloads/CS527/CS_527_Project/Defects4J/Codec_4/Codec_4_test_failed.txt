@@ -1,0 +1,9 @@
+org.apache.commons.codec.binary.Base64Codec13Test::testEncoder
+org.apache.commons.codec.binary.Base64Codec13Test::testBinaryEncoder
+org.apache.commons.codec.binary.Base64_ESTest::test33
+org.apache.commons.codec.binary.RegressionTest0::test096
+org.apache.commons.codec.binary.RegressionTest0::test105
+org.apache.commons.codec.binary.RegressionTest0::test114
+org.apache.commons.codec.binary.RegressionTest0::test096
+org.apache.commons.codec.binary.RegressionTest0::test105
+org.apache.commons.codec.binary.RegressionTest0::test114

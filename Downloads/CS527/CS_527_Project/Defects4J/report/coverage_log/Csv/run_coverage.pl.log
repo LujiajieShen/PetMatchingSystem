@@ -1,0 +1,21 @@
+######  Start code coverage analysis  /home/rexar/UIUC/CS527/CS_527_Project/Defects4J/defects4j/framework/bin/run_coverage.pl: 2024-04-09 15:48:44  ######
+ - Executing test suite: Csv-1b-evosuite.1.tar.bz2
+######  End code coverage analysis  /home/rexar/UIUC/CS527/CS_527_Project/Defects4J/defects4j/framework/bin/run_coverage.pl: 2024-04-09 15:48:52  ######
+######  Start code coverage analysis  /home/rexar/UIUC/CS527/CS_527_Project/Defects4J/defects4j/framework/bin/run_coverage.pl: 2024-04-09 15:59:28  ######
+ - Executing test suite: Csv-1f-evosuite.1.tar.bz2
+ - Skipping Csv-1b-evosuite.1.tar.bz2 since results already exist in database!
+######  End code coverage analysis  /home/rexar/UIUC/CS527/CS_527_Project/Defects4J/defects4j/framework/bin/run_coverage.pl: 2024-04-09 15:59:36  ######
+######  Start code coverage analysis  /home/rexar/UIUC/CS527/CS_527_Project/Defects4J/defects4j/framework/bin/run_coverage.pl: 2024-04-09 16:09:17  ######
+ - Skipping Csv-1b-evosuite.1.tar.bz2 since results already exist in database!
+ - Executing test suite: Csv-2b-evosuite.1.tar.bz2
+ - Skipping Csv-1f-evosuite.1.tar.bz2 since results already exist in database!
+ - Executing test suite: Csv-2f-evosuite.1.tar.bz2
+######  End code coverage analysis  /home/rexar/UIUC/CS527/CS_527_Project/Defects4J/defects4j/framework/bin/run_coverage.pl: 2024-04-09 16:09:34  ######
+######  Start code coverage analysis  /home/rexar/UIUC/CS527/CS_527_Project/Defects4J/defects4j/framework/bin/run_coverage.pl: 2024-04-09 16:20:57  ######
+ - Executing test suite: Csv-3b-evosuite.1.tar.bz2
+ - Executing test suite: Csv-3f-evosuite.1.tar.bz2
+ - Skipping Csv-2b-evosuite.1.tar.bz2 since results already exist in database!
+ - Skipping Csv-2f-evosuite.1.tar.bz2 since results already exist in database!
+ - Skipping Csv-1f-evosuite.1.tar.bz2 since results already exist in database!
+ - Skipping Csv-1b-evosuite.1.tar.bz2 since results already exist in database!
+######  End code coverage analysis  /home/rexar/UIUC/CS527/CS_527_Project/Defects4J/defects4j/framework/bin/run_coverage.pl: 2024-04-09 16:21:16  ######

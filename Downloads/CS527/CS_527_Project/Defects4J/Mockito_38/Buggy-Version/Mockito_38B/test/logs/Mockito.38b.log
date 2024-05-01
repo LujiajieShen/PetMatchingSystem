@@ -1,0 +1,25 @@
+######  Start test generation  /Users/eeeeeeshen/Downloads/Defect4J/defects4j/framework/bin/gen_tests.pl: 2024-04-09 15:53:11  ######
+Mode: regression
+Parameters:
+ -g evosuite
+ -p Mockito
+ -v 38b
+ -n 1
+ -b 60
+ -c /Users/eeeeeeshen/Downloads/Defect4J/defects4j/framework/projects/Mockito/modified_classes/38.src
+ -s 1038
+Created test suite archive: Mockito-38b-evosuite.1.tar.bz2
+Moved test suite archive to output directory: /Users/eeeeeeshen/Downloads/CS527/CS_527_Project/Defects4J/Mockito_38/Buggy-Version/Mockito_38B/test/Mockito/evosuite/1
+######  End test generation  /Users/eeeeeeshen/Downloads/Defect4J/defects4j/framework/bin/gen_tests.pl: 2024-04-09 15:53:49  ######
+######  Start test generation  /Users/eeeeeeshen/Downloads/Defect4J/defects4j/framework/bin/gen_tests.pl: 2024-04-09 15:58:23  ######
+Mode: error-revealing
+Parameters:
+ -g randoop
+ -p Mockito
+ -v 38b
+ -n 1
+ -b 120
+ -c /Users/eeeeeeshen/Downloads/Defect4J/defects4j/framework/projects/Mockito/modified_classes/38.src
+ -s 1038
+Test generator (randoop) did not generate any tests!
+######  End test generation  /Users/eeeeeeshen/Downloads/Defect4J/defects4j/framework/bin/gen_tests.pl: 2024-04-09 16:00:29  ######

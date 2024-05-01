@@ -1,0 +1,192 @@
+diff --git a/2240 b/2242
+index 2240b12..224208b 100644
+--- a/2240
++++ b/2242
+@@ -2,7 +2,7 @@
+  * JFreeChart : a free chart library for the Java(tm) platform
+  * ===========================================================
+  *
+- * (C) Copyright 2000-2008, by Object Refinery Limited and Contributors.
++ * (C) Copyright 2000-2009, by Object Refinery Limited and Contributors.
+  *
+  * Project Info:  http://www.jfree.org/jfreechart/index.html
+  *
+@@ -24,148 +24,68 @@
+  * [Java is a trademark or registered trademark of Sun Microsystems, Inc.
+  * in the United States and other countries.]
+  *
+- * ---------------------------------
+- * StandardPieURLGeneratorTests.java
+- * ---------------------------------
+- * (C) Copyright 2003-2008, by Object Refinery Limited and Contributors.
++ * ----------------------------
++ * DataGeneralPackageTests.java
++ * ----------------------------
++ * (C) Copyright 2004-2009, by Object Refinery Limited and Contributors.
+  *
+  * Original Author:  David Gilbert (for Object Refinery Limited);
+  * Contributor(s):   -;
+  *
+  * Changes
+  * -------
+- * 21-Mar-2003 : Version 1 (DG);
+- * 06-Jan-2003 : Added a test for URL generation (DG);
+- * 24-Nov-2006 : New equals() test (DG);
+- * 17-Apr-2007 : Added additional check to testURL() (DG);
+- * 23-Apr-2008 : Added testPublicCloneable (DG);
++ * 23-Aug-2004 : Restructured org.jfree.data package (DG);
++ * 18-Jan-2005 : Added main() method (DG);
++ * 04-Feb-2009 : Added DefaultHeatMapDatasetTests (DG);
+  *
+  */
+ 
+-package org.jfree.chart.urls.junit;
+-
+-import java.io.ByteArrayInputStream;
+-import java.io.ByteArrayOutputStream;
+-import java.io.ObjectInput;
+-import java.io.ObjectInputStream;
+-import java.io.ObjectOutput;
+-import java.io.ObjectOutputStream;
++package org.jfree.data.general.junit;
+ 
+ import junit.framework.Test;
+ import junit.framework.TestCase;
+ import junit.framework.TestSuite;
+ 
+-import org.jfree.chart.urls.StandardPieURLGenerator;
+-import org.jfree.chart.util.PublicCloneable;
+-import org.jfree.data.pie.DefaultPieDataset;
+-
+ /**
+- * Tests for the {@link StandardPieURLGenerator} class.
++ * Some tests for the <code>org.jfree.data</code> package that can be run
++ * using JUnit.  You can find more information about JUnit at
++ * <a href="http://www.junit.org">http://www.junit.org</a>.
+  */
+-public class StandardPieURLGeneratorTests extends TestCase {
++public class DataGeneralPackageTests extends TestCase {
+ 
+     /**
+-     * Returns the tests as a test suite.
++     * Returns a test suite to the JUnit test runner.
+      *
+      * @return The test suite.
+      */
+     public static Test suite() {
+-        return new TestSuite(StandardPieURLGeneratorTests.class);
++        TestSuite suite = new TestSuite("org.jfree.data.general");
++        suite.addTestSuite(DatasetGroupTests.class);
++        suite.addTestSuite(DatasetUtilitiesTests.class);
++        suite.addTestSuite(DefaultHeatMapDatasetTests.class);
++        suite.addTestSuite(DefaultKeyedValueDatasetTests.class);
++        suite.addTestSuite(DefaultKeyedValuesDatasetTests.class);
++        suite.addTestSuite(DefaultKeyedValues2DDatasetTests.class);
++        suite.addTestSuite(DefaultPieDatasetTests.class);
++        return suite;
+     }
+ 
+     /**
+-     * Constructs a new set of tests.
++     * Constructs the test suite.
+      *
+-     * @param name  the name of the tests.
++     * @param name  the test suite name.
+      */
+-    public StandardPieURLGeneratorTests(String name) {
++    public DataGeneralPackageTests(String name) {
+         super(name);
+     }
+ 
+     /**
+-     * Some checks for the equals() method.
+-     */
+-    public void testEquals() {
+-        StandardPieURLGenerator g1 = new StandardPieURLGenerator();
+-        StandardPieURLGenerator g2 = new StandardPieURLGenerator();
+-        assertTrue(g1.equals(g2));
+-
+-        g1 = new StandardPieURLGenerator("prefix", "category", "index");
+-        assertFalse(g1.equals(g2));
+-        g2 = new StandardPieURLGenerator("prefix", "category", "index");
+-        assertTrue(g1.equals(g2));
+-
+-        g1 = new StandardPieURLGenerator("prefix2", "category", "index");
+-        assertFalse(g1.equals(g2));
+-        g2 = new StandardPieURLGenerator("prefix2", "category", "index");
+-        assertTrue(g1.equals(g2));
+-
+-        g1 = new StandardPieURLGenerator("prefix2", "category2", "index");
+-        assertFalse(g1.equals(g2));
+-        g2 = new StandardPieURLGenerator("prefix2", "category2", "index");
+-        assertTrue(g1.equals(g2));
+-
+-        g1 = new StandardPieURLGenerator("prefix2", "category2", "index2");
+-        assertFalse(g1.equals(g2));
+-        g2 = new StandardPieURLGenerator("prefix2", "category2", "index2");
+-        assertTrue(g1.equals(g2));
+-
+-        g1 = new StandardPieURLGenerator("prefix2", "category2", null);
+-        assertFalse(g1.equals(g2));
+-        g2 = new StandardPieURLGenerator("prefix2", "category2", null);
+-        assertTrue(g1.equals(g2));
+-    }
+-
+-    /**
+-     * Checks that the class does not implement PublicCloneable (the generator
+-     * is immutable).
+-     */
+-    public void testPublicCloneable() {
+-        StandardPieURLGenerator g1 = new StandardPieURLGenerator(
+-                "index.html?", "cat");
+-        assertFalse(g1 instanceof PublicCloneable);
+-    }
+-
+-    /**
+-     * Serialize an instance, restore it, and check for equality.
+-     */
+-    public void testSerialization() {
+-
+-        StandardPieURLGenerator g1 = new StandardPieURLGenerator(
+-                "index.html?", "cat");
+-        StandardPieURLGenerator g2 = null;
+-
+-        try {
+-            ByteArrayOutputStream buffer = new ByteArrayOutputStream();
+-            ObjectOutput out = new ObjectOutputStream(buffer);
+-            out.writeObject(g1);
+-            out.close();
+-
+-            ObjectInput in = new ObjectInputStream(
+-                    new ByteArrayInputStream(buffer.toByteArray()));
+-            g2 = (StandardPieURLGenerator) in.readObject();
+-            in.close();
+-        }
+-        catch (Exception e) {
+-            e.printStackTrace();
+-        }
+-        assertEquals(g1, g2);
+-
+-    }
+-
+-    /**
+-     * Test that the generated URL is as expected.
++     * Runs the test suite using JUnit's text-based runner.
++     *
++     * @param args  ignored.
+      */
+-    public void testURL() {
+-        DefaultPieDataset dataset = new DefaultPieDataset();
+-        dataset.setValue("Alpha '1'", new Double(5.0));
+-        dataset.setValue("Beta", new Double(5.5));
+-        StandardPieURLGenerator g1 = new StandardPieURLGenerator(
+-                "chart.jsp", "category");
+-        String url = g1.generateURL(dataset, "Beta", 0);
+-        assertEquals("chart.jsp?category=Beta&amp;pieIndex=0", url);
+-        url = g1.generateURL(dataset, "Alpha '1'", 0);
+-        assertEquals("chart.jsp?category=Alpha+%271%27&amp;pieIndex=0", url);
++    public static void main(String[] args) {
++        junit.textui.TestRunner.run(suite());
+     }
+ 
+ }

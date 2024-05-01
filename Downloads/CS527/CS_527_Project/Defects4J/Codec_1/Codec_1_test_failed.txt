@@ -1,0 +1,12 @@
+org.apache.commons.codec.language.CaverphoneTest::testLocaleIndependence
+org.apache.commons.codec.language.DoubleMetaphoneTest::testLocaleIndependence
+org.apache.commons.codec.language.MetaphoneTest::testLocaleIndependence
+org.apache.commons.codec.language.RefinedSoundexTest::testLocaleIndependence
+org.apache.commons.codec.language.SoundexTest::testLocaleIndependence
+org.apache.commons.codec.language.Metaphone_ESTest::test04
+org.apache.commons.codec.language.Metaphone_ESTest::test25
+org.apache.commons.codec.language.Metaphone_ESTest::test24
+org.apache.commons.codec.language.Metaphone_ESTest::test08
+org.apache.commons.codec.language.Metaphone_ESTest::test15
+org.apache.commons.codec.language.Metaphone_ESTest::test11
+org.apache.commons.codec.language.Metaphone_ESTest::test19

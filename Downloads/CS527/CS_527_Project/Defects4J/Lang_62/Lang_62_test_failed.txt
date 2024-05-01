@@ -1,0 +1,3 @@
+org.apache.commons.lang.EntitiesTest::testNumberOverflow
+org.apache.commons.lang.RegressionTest0::test009
+org.apache.commons.lang.Entities_ESTest::test04

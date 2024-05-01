@@ -1,0 +1,3 @@
+TARGET_CLASS,criterion,Coverage,Total_Goals,Covered_Goals
+org.mockito.internal.verification.argumentmatching.ArgumentMatchingTool,BRANCH,0.06666666666666667,15,1
+org.mockito.internal.verification.argumentmatching.ArgumentMatchingTool,BRANCH,0.0625,16,1

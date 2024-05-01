@@ -1,0 +1,9 @@
+######  Start code coverage analysis  /Users/eeeeeeshen/Downloads/Defect4J/defects4j/framework/bin/run_coverage.pl: 2024-04-09 15:51:31  ######
+ - Executing test suite: Time-25b-evosuite.1.tar.bz2
+ - Broken test suite: Time-25b-evosuite.1.tar.bz2
+######  End code coverage analysis  /Users/eeeeeeshen/Downloads/Defect4J/defects4j/framework/bin/run_coverage.pl: 2024-04-09 15:51:55  ######
+######  Start code coverage analysis  /Users/eeeeeeshen/Downloads/Defect4J/defects4j/framework/bin/run_coverage.pl: 2024-04-09 19:25:42  ######
+ - Executing test suite: Time-25b-randoop.1.tar.bz2
+ - Broken test suite: Time-25b-randoop.1.tar.bz2
+ - Skipping Time-25b-evosuite.1.tar.bz2 since results already exist in database!
+######  End code coverage analysis  /Users/eeeeeeshen/Downloads/Defect4J/defects4j/framework/bin/run_coverage.pl: 2024-04-09 19:26:02  ######

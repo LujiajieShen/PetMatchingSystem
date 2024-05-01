@@ -1,0 +1,3 @@
+project_id,version_id,test_suite_source,test_id,lines_total,lines_covered,branches_total,branches_covered
+Compress,4b,evosuite,1,601,378,253,111
+Compress,4b,randoop,1,601,158,253,38

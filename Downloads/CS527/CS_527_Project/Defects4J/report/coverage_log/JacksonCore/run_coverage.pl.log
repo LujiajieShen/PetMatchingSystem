@@ -1,0 +1,21 @@
+######  Start code coverage analysis  /home/rexar/UIUC/CS527/CS_527_Project/Defects4J/defects4j/framework/bin/run_coverage.pl: 2024-04-09 16:50:43  ######
+ - Executing test suite: JacksonCore-2b-randoop.1.tar.bz2
+ - Executing test suite: JacksonCore-4b-randoop.1.tar.bz2
+ - Executing test suite: JacksonCore-1f-randoop.1.tar.bz2
+ - Executing test suite: JacksonCore-4f-randoop.1.tar.bz2
+ - Executing test suite: JacksonCore-2f-randoop.1.tar.bz2
+ - Executing test suite: JacksonCore-1b-randoop.1.tar.bz2
+ - Executing test suite: JacksonCore-3b-randoop.1.tar.bz2
+ - Broken test suite: JacksonCore-3b-randoop.1.tar.bz2
+ - Executing test suite: JacksonCore-3f-randoop.1.tar.bz2
+ - Broken test suite: JacksonCore-3f-randoop.1.tar.bz2
+######  End code coverage analysis  /home/rexar/UIUC/CS527/CS_527_Project/Defects4J/defects4j/framework/bin/run_coverage.pl: 2024-04-09 16:51:59  ######
+######  Start code coverage analysis  /home/rexar/UIUC/CS527/CS_527_Project/Defects4J/defects4j/framework/bin/run_coverage.pl: 2024-04-09 16:58:53  ######
+ - Executing test suite: JacksonCore-3b-evosuite.1.tar.bz2
+ - Executing test suite: JacksonCore-3f-evosuite.1.tar.bz2
+ - Executing test suite: JacksonCore-4f-evosuite.1.tar.bz2
+ - Executing test suite: JacksonCore-1f-evosuite.1.tar.bz2
+ - Executing test suite: JacksonCore-2f-evosuite.1.tar.bz2
+ - Executing test suite: JacksonCore-1b-evosuite.1.tar.bz2
+ - Executing test suite: JacksonCore-2b-evosuite.1.tar.bz2
+######  End code coverage analysis  /home/rexar/UIUC/CS527/CS_527_Project/Defects4J/defects4j/framework/bin/run_coverage.pl: 2024-04-09 17:00:01  ######

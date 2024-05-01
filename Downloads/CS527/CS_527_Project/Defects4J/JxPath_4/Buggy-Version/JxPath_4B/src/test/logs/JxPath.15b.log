@@ -1,0 +1,12 @@
+######  Start test generation  /Users/eeeeeeshen/Downloads/Defect4J/defects4j/framework/bin/gen_tests.pl: 2024-04-09 18:14:50  ######
+Mode: error-revealing
+Parameters:
+ -g randoop
+ -p JxPath
+ -v 15b
+ -n 1
+ -b 60
+ -c /Users/eeeeeeshen/Downloads/Defect4J/defects4j/framework/projects/JxPath/modified_classes/15.src
+ -s 1015
+Test generator (randoop) did not generate any tests!
+######  End test generation  /Users/eeeeeeshen/Downloads/Defect4J/defects4j/framework/bin/gen_tests.pl: 2024-04-09 18:15:55  ######

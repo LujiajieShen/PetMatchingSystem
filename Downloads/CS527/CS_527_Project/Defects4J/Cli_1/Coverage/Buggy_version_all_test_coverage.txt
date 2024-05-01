@@ -1,0 +1,3 @@
+project_id,version_id,test_suite_source,test_id,lines_total,lines_covered,branches_total,branches_covered
+Cli,1b,evosuite,1,45,45,14,14
+Cli,1b,randoop,1,45,42,14,8

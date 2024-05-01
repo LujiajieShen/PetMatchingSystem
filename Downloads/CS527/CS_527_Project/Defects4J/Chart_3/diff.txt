@@ -1,0 +1,13 @@
+Binary files defects4j_projects/Chart_3_buggy/.svn/wc.db and defects4j_projects/Chart_3_fixed/.svn/wc.db differ
+diff -ruN defects4j_projects/Chart_3_buggy/source/org/jfree/data/time/TimeSeries.java defects4j_projects/Chart_3_fixed/source/org/jfree/data/time/TimeSeries.java
+--- defects4j_projects/Chart_3_buggy/source/org/jfree/data/time/TimeSeries.java	2024-03-04 23:44:16
++++ defects4j_projects/Chart_3_fixed/source/org/jfree/data/time/TimeSeries.java	2024-03-04 23:44:21
+@@ -1054,6 +1054,8 @@
+             throw new IllegalArgumentException("Requires start <= end.");
+         }
+         TimeSeries copy = (TimeSeries) super.clone();
++        copy.minY = Double.NaN;
++        copy.maxY = Double.NaN;
+         copy.data = new java.util.ArrayList();
+         if (this.data.size() > 0) {
+             for (int index = start; index <= end; index++) {

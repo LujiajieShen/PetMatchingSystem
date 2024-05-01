@@ -1,0 +1,5 @@
+######  Start code coverage analysis  /Users/eeeeeeshen/Downloads/Defect4J/defects4j/framework/bin/run_coverage.pl: 2024-04-09 17:02:10  ######
+ - Executing test suite: Math-46b-evosuite.1.tar.bz2
+ - Executing test suite: Math-46b-randoop.1.tar.bz2
+ - Broken test suite: Math-46b-randoop.1.tar.bz2
+######  End code coverage analysis  /Users/eeeeeeshen/Downloads/Defect4J/defects4j/framework/bin/run_coverage.pl: 2024-04-09 17:02:43  ######

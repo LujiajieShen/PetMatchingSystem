@@ -1,0 +1,3 @@
+project_id,version_id,test_suite_source,test_id,lines_total,lines_covered,branches_total,branches_covered
+Codec,2b,evosuite,1,213,207,146,138
+Codec,2b,randoop,1,213,189,146,114

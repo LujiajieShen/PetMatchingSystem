@@ -1,0 +1,26 @@
+######  Start test generation  /Users/eeeeeeshen/Downloads/Defect4J/defects4j/framework/bin/gen_tests.pl: 2024-04-09 17:06:34  ######
+Mode: regression
+Parameters:
+ -g randoop
+ -p Math
+ -v 45f
+ -n 1
+ -b 60
+ -c /Users/eeeeeeshen/Downloads/Defect4J/defects4j/framework/projects/Math/modified_classes/45.src
+ -s 1045
+Created test suite archive: Math-45f-randoop.1.tar.bz2
+Moved test suite archive to output directory: /Users/eeeeeeshen/Downloads/CS527/CS_527_Project/Defects4J/Math_45/Patched-Version/Math_45F/src/test/Math/randoop/1
+######  End test generation  /Users/eeeeeeshen/Downloads/Defect4J/defects4j/framework/bin/gen_tests.pl: 2024-04-09 17:07:43  ######
+######  Start test generation  /Users/eeeeeeshen/Downloads/Defect4J/defects4j/framework/bin/gen_tests.pl: 2024-04-09 17:08:13  ######
+Mode: regression
+Parameters:
+ -g evosuite
+ -p Math
+ -v 45f
+ -n 1
+ -b 60
+ -c /Users/eeeeeeshen/Downloads/Defect4J/defects4j/framework/projects/Math/modified_classes/45.src
+ -s 1045
+Created test suite archive: Math-45f-evosuite.1.tar.bz2
+Moved test suite archive to output directory: /Users/eeeeeeshen/Downloads/CS527/CS_527_Project/Defects4J/Math_45/Patched-Version/Math_45F/src/test/Math/evosuite/1
+######  End test generation  /Users/eeeeeeshen/Downloads/Defect4J/defects4j/framework/bin/gen_tests.pl: 2024-04-09 17:09:04  ######

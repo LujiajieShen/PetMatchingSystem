@@ -1,0 +1,26 @@
+######  Start test generation  /Users/eeeeeeshen/Downloads/Defect4J/defects4j/framework/bin/gen_tests.pl: 2024-04-09 18:53:08  ######
+Mode: regression
+Parameters:
+ -g randoop
+ -p Time
+ -v 1f
+ -n 1
+ -b 60
+ -c /Users/eeeeeeshen/Downloads/Defect4J/defects4j/framework/projects/Time/modified_classes/1.src
+ -s 1001
+Created test suite archive: Time-1f-randoop.1.tar.bz2
+Moved test suite archive to output directory: /Users/eeeeeeshen/Downloads/CS527/CS_527_Project/Defects4J/Time_1/Patched-Version/Time_1F/src/test/Time/randoop/1
+######  End test generation  /Users/eeeeeeshen/Downloads/Defect4J/defects4j/framework/bin/gen_tests.pl: 2024-04-09 18:54:22  ######
+######  Start test generation  /Users/eeeeeeshen/Downloads/Defect4J/defects4j/framework/bin/gen_tests.pl: 2024-04-09 18:55:30  ######
+Mode: regression
+Parameters:
+ -g evosuite
+ -p Time
+ -v 1f
+ -n 1
+ -b 60
+ -c /Users/eeeeeeshen/Downloads/Defect4J/defects4j/framework/projects/Time/modified_classes/1.src
+ -s 1001
+Created test suite archive: Time-1f-evosuite.1.tar.bz2
+Moved test suite archive to output directory: /Users/eeeeeeshen/Downloads/CS527/CS_527_Project/Defects4J/Time_1/Patched-Version/Time_1F/src/test/Time/evosuite/1
+######  End test generation  /Users/eeeeeeshen/Downloads/Defect4J/defects4j/framework/bin/gen_tests.pl: 2024-04-09 18:56:18  ######

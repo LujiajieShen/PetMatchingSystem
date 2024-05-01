@@ -1,0 +1,38 @@
+######  Start test generation  /Users/eeeeeeshen/Downloads/Defect4J/defects4j/framework/bin/gen_tests.pl: 2024-04-09 18:06:59  ######
+Mode: error-revealing
+Parameters:
+ -g randoop
+ -p Lang
+ -v 15b
+ -n 1
+ -b 60
+ -c /Users/eeeeeeshen/Downloads/Defect4J/defects4j/framework/projects/Lang/modified_classes/15.src
+ -s 1015
+Test generator (randoop) did not generate any tests!
+######  End test generation  /Users/eeeeeeshen/Downloads/Defect4J/defects4j/framework/bin/gen_tests.pl: 2024-04-09 18:08:04  ######
+######  Start test generation  /Users/eeeeeeshen/Downloads/Defect4J/defects4j/framework/bin/gen_tests.pl: 2024-04-09 18:08:25  ######
+Mode: regression
+Parameters:
+ -g randoop
+ -p Lang
+ -v 15b
+ -n 1
+ -b 60
+ -c /Users/eeeeeeshen/Downloads/Defect4J/defects4j/framework/projects/Lang/modified_classes/15.src
+ -s 1015
+Created test suite archive: Lang-15b-randoop.1.tar.bz2
+Moved test suite archive to output directory: /Users/eeeeeeshen/Downloads/CS527/CS_527_Project/Defects4J/Lang_15/Buggy-Version/Lang_15B/src/test/Lang/randoop/1
+######  End test generation  /Users/eeeeeeshen/Downloads/Defect4J/defects4j/framework/bin/gen_tests.pl: 2024-04-09 18:09:30  ######
+######  Start test generation  /Users/eeeeeeshen/Downloads/Defect4J/defects4j/framework/bin/gen_tests.pl: 2024-04-09 18:09:52  ######
+Mode: regression
+Parameters:
+ -g evosuite
+ -p Lang
+ -v 15b
+ -n 1
+ -b 60
+ -c /Users/eeeeeeshen/Downloads/Defect4J/defects4j/framework/projects/Lang/modified_classes/15.src
+ -s 1015
+Created test suite archive: Lang-15b-evosuite.1.tar.bz2
+Moved test suite archive to output directory: /Users/eeeeeeshen/Downloads/CS527/CS_527_Project/Defects4J/Lang_15/Buggy-Version/Lang_15B/src/test/Lang/evosuite/1
+######  End test generation  /Users/eeeeeeshen/Downloads/Defect4J/defects4j/framework/bin/gen_tests.pl: 2024-04-09 18:10:29  ######

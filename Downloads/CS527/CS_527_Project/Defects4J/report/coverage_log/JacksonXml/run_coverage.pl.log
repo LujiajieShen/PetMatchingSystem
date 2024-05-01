@@ -1,0 +1,19 @@
+######  Start code coverage analysis  /home/rexar/UIUC/CS527/CS_527_Project/Defects4J/defects4j/framework/bin/run_coverage.pl: 2024-04-09 17:22:59  ######
+ - Executing test suite: JacksonXml-1b-randoop.1.tar.bz2
+ - Executing test suite: JacksonXml-1f-randoop.1.tar.bz2
+ - Executing test suite: JacksonXml-3b-randoop.1.tar.bz2
+ - Executing test suite: JacksonXml-4f-randoop.1.tar.bz2
+ - Executing test suite: JacksonXml-4b-randoop.1.tar.bz2
+ - Executing test suite: JacksonXml-2b-randoop.1.tar.bz2
+ - Executing test suite: JacksonXml-3f-randoop.1.tar.bz2
+######  End code coverage analysis  /home/rexar/UIUC/CS527/CS_527_Project/Defects4J/defects4j/framework/bin/run_coverage.pl: 2024-04-09 17:23:55  ######
+######  Start code coverage analysis  /home/rexar/UIUC/CS527/CS_527_Project/Defects4J/defects4j/framework/bin/run_coverage.pl: 2024-04-09 17:28:13  ######
+ - Executing test suite: JacksonXml-4b-evosuite.1.tar.bz2
+ - Executing test suite: JacksonXml-2b-evosuite.1.tar.bz2
+ - Executing test suite: JacksonXml-3f-evosuite.1.tar.bz2
+ - Executing test suite: JacksonXml-1b-evosuite.1.tar.bz2
+ - Executing test suite: JacksonXml-4f-evosuite.1.tar.bz2
+ - Executing test suite: JacksonXml-1f-evosuite.1.tar.bz2
+ - Executing test suite: JacksonXml-2f-evosuite.1.tar.bz2
+ - Executing test suite: JacksonXml-3b-evosuite.1.tar.bz2
+######  End code coverage analysis  /home/rexar/UIUC/CS527/CS_527_Project/Defects4J/defects4j/framework/bin/run_coverage.pl: 2024-04-09 17:29:23  ######

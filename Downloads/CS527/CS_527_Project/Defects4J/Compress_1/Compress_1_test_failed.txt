@@ -1,0 +1,9 @@
+org.apache.commons.compress.archivers.CpioTestCase::testCpioUnarchive
+org.apache.commons.compress.archivers.cpio.RegressionTest0::test005
+org.apache.commons.compress.archivers.cpio.RegressionTest0::test014
+org.apache.commons.compress.archivers.cpio.RegressionTest0::test043
+org.apache.commons.compress.archivers.cpio.RegressionTest0::test100
+org.apache.commons.compress.archivers.cpio.RegressionTest0::test005
+org.apache.commons.compress.archivers.cpio.RegressionTest0::test014
+org.apache.commons.compress.archivers.cpio.RegressionTest0::test043
+org.apache.commons.compress.archivers.cpio.RegressionTest0::test100

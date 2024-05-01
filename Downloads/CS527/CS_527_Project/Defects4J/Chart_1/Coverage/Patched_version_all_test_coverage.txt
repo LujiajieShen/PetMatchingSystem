@@ -1,0 +1,3 @@
+project_id,version_id,test_suite_source,test_id,lines_total,lines_covered,branches_total,branches_covered
+Chart,1f,evosuite,1,519,207,242,69
+Chart,1f,randoop,1,519,152,242,40

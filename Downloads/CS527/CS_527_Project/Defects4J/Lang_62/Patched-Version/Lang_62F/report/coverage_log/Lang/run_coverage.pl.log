@@ -1,0 +1,6 @@
+######  Start code coverage analysis  /Users/eeeeeeshen/Downloads/Defect4J/defects4j/framework/bin/run_coverage.pl: 2024-04-09 18:00:46  ######
+ - Executing test suite: Lang-62f-evosuite.1.tar.bz2
+ - Broken test suite: Lang-62f-evosuite.1.tar.bz2
+ - Executing test suite: Lang-62f-randoop.1.tar.bz2
+ - Broken test suite: Lang-62f-randoop.1.tar.bz2
+######  End code coverage analysis  /Users/eeeeeeshen/Downloads/Defect4J/defects4j/framework/bin/run_coverage.pl: 2024-04-09 18:01:15  ######

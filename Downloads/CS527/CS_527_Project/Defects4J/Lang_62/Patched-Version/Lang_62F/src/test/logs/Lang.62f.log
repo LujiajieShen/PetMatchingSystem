@@ -1,0 +1,26 @@
+######  Start test generation  /Users/eeeeeeshen/Downloads/Defect4J/defects4j/framework/bin/gen_tests.pl: 2024-04-09 17:57:52  ######
+Mode: regression
+Parameters:
+ -g randoop
+ -p Lang
+ -v 62f
+ -n 1
+ -b 60
+ -c /Users/eeeeeeshen/Downloads/Defect4J/defects4j/framework/projects/Lang/modified_classes/62.src
+ -s 1062
+Created test suite archive: Lang-62f-randoop.1.tar.bz2
+Moved test suite archive to output directory: /Users/eeeeeeshen/Downloads/CS527/CS_527_Project/Defects4J/Lang_62/Patched-Version/Lang_62F/src/test/Lang/randoop/1
+######  End test generation  /Users/eeeeeeshen/Downloads/Defect4J/defects4j/framework/bin/gen_tests.pl: 2024-04-09 17:59:12  ######
+######  Start test generation  /Users/eeeeeeshen/Downloads/Defect4J/defects4j/framework/bin/gen_tests.pl: 2024-04-09 17:59:29  ######
+Mode: regression
+Parameters:
+ -g evosuite
+ -p Lang
+ -v 62f
+ -n 1
+ -b 60
+ -c /Users/eeeeeeshen/Downloads/Defect4J/defects4j/framework/projects/Lang/modified_classes/62.src
+ -s 1062
+Created test suite archive: Lang-62f-evosuite.1.tar.bz2
+Moved test suite archive to output directory: /Users/eeeeeeshen/Downloads/CS527/CS_527_Project/Defects4J/Lang_62/Patched-Version/Lang_62F/src/test/Lang/evosuite/1
+######  End test generation  /Users/eeeeeeshen/Downloads/Defect4J/defects4j/framework/bin/gen_tests.pl: 2024-04-09 18:00:12  ######

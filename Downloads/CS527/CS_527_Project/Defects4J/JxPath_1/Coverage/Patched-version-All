@@ -1,0 +1,3 @@
+project_id,version_id,test_suite_source,test_id,lines_total,lines_covered,branches_total,branches_covered
+JxPath,1f,randoop,1,735,154,562,68
+JxPath,1f,evosuite,1,735,549,562,368

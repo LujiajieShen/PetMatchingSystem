@@ -1,0 +1,3 @@
+project_id,version_id,test_suite_source,test_id,lines_total,lines_covered,branches_total,branches_covered
+Closure,2b,evosuite,1,684,45,574,0
+Closure,2b,randoop,1,684,45,574,0

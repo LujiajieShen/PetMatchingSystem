@@ -1,0 +1,26 @@
+######  Start test generation  /Users/eeeeeeshen/Downloads/Defect4J/defects4j/framework/bin/gen_tests.pl: 2024-04-09 18:21:20  ######
+Mode: regression
+Parameters:
+ -g randoop
+ -p JxPath
+ -v 4f
+ -n 1
+ -b 60
+ -c /Users/eeeeeeshen/Downloads/Defect4J/defects4j/framework/projects/JxPath/modified_classes/4.src
+ -s 1004
+Created test suite archive: JxPath-4f-randoop.1.tar.bz2
+Moved test suite archive to output directory: /Users/eeeeeeshen/Downloads/CS527/CS_527_Project/Defects4J/JxPath_4/Patched-Version/JxPath_4F/src/test/JxPath/randoop/1
+######  End test generation  /Users/eeeeeeshen/Downloads/Defect4J/defects4j/framework/bin/gen_tests.pl: 2024-04-09 18:22:29  ######
+######  Start test generation  /Users/eeeeeeshen/Downloads/Defect4J/defects4j/framework/bin/gen_tests.pl: 2024-04-09 18:23:13  ######
+Mode: regression
+Parameters:
+ -g evosuite
+ -p JxPath
+ -v 4f
+ -n 1
+ -b 60
+ -c /Users/eeeeeeshen/Downloads/Defect4J/defects4j/framework/projects/JxPath/modified_classes/4.src
+ -s 1004
+Created test suite archive: JxPath-4f-evosuite.1.tar.bz2
+Moved test suite archive to output directory: /Users/eeeeeeshen/Downloads/CS527/CS_527_Project/Defects4J/JxPath_4/Patched-Version/JxPath_4F/src/test/JxPath/evosuite/1
+######  End test generation  /Users/eeeeeeshen/Downloads/Defect4J/defects4j/framework/bin/gen_tests.pl: 2024-04-09 18:24:24  ######
