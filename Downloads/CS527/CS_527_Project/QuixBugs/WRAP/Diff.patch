@@ -1,0 +1,17 @@
+--- Buggy-Version/java_programs/WRAP.java	2024-02-05 18:12:59.000000000 -0600
++++ Patched-Version/correct_java_programs/WRAP.java	2024-02-05 18:12:59.000000000 -0600
+@@ -1,4 +1,4 @@
+-package java_programs;
++package correct_java_programs;
+ import java.util.*;
+ 
+ /*
+@@ -28,7 +28,7 @@
+             text = text.substring(end);
+             lines.add(line);
+         }
+-
++        lines.add(text);
+         return lines;
+     }
+ }

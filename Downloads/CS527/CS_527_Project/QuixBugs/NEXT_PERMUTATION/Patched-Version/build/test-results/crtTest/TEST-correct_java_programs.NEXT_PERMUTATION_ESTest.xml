@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="correct_java_programs.NEXT_PERMUTATION_ESTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2024-04-08T16:32:33" hostname="MacBook-Pro-685.local" time="0.022">
+  <properties/>
+  <testcase name="test2" classname="correct_java_programs.NEXT_PERMUTATION_ESTest" time="0.009"/>
+  <testcase name="test3" classname="correct_java_programs.NEXT_PERMUTATION_ESTest" time="0.002"/>
+  <testcase name="test4" classname="correct_java_programs.NEXT_PERMUTATION_ESTest" time="0.003"/>
+  <testcase name="test5" classname="correct_java_programs.NEXT_PERMUTATION_ESTest" time="0.002"/>
+  <testcase name="test6" classname="correct_java_programs.NEXT_PERMUTATION_ESTest" time="0.002"/>
+  <testcase name="test0" classname="correct_java_programs.NEXT_PERMUTATION_ESTest" time="0.002"/>
+  <testcase name="test1" classname="correct_java_programs.NEXT_PERMUTATION_ESTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/Users/eeeeeeshen/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-nop/1.7.32/e5349fc363dbc19c60cb12b10120b4c4f9e4aca8/slf4j-nop-1.7.32.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/Users/eeeeeeshen/.gradle/caches/modules-2/files-2.1/org.evosuite/evosuite-master/1.0.6/14e9500b050a0816d5aec368e2391d99cbb53dee/evosuite-master-1.0.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.helpers.NOPLoggerFactory]
+]]></system-err>
+</testsuite>

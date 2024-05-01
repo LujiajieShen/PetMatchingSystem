@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>PASCAL.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Buggy-Version</a> &gt; <a href="index.source.html" class="el_package">java_programs</a> &gt; <span class="el_source">PASCAL.java</span></div><h1>PASCAL.java</h1><pre class="source lang-java linenums">package java_programs;
+import java.util.*;
+
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ *
+ * @author derricklin
+ */
+<span class="nc" id="L13">public class PASCAL {</span>
+    public static ArrayList&lt;ArrayList&lt;Integer&gt;&gt; pascal(int n) {
+<span class="fc" id="L15">        ArrayList&lt;ArrayList&lt;Integer&gt;&gt; rows = new ArrayList&lt;ArrayList&lt;Integer&gt;&gt;();</span>
+<span class="fc" id="L16">        ArrayList&lt;Integer&gt; init = new ArrayList&lt;Integer&gt;();</span>
+<span class="fc" id="L17">        init.add(1);</span>
+<span class="fc" id="L18">        rows.add(init);</span>
+
+<span class="pc bpc" id="L20" title="1 of 2 branches missed.">        for (int r=1; r&lt;n; r++) {</span>
+<span class="nc" id="L21">            ArrayList&lt;Integer&gt; row = new ArrayList&lt;Integer&gt;();</span>
+<span class="nc bnc" id="L22" title="All 2 branches missed.">            for (int c=0; c&lt;r; c++) {</span>
+                int upleft, upright;
+<span class="nc bnc" id="L24" title="All 2 branches missed.">                if (c &gt; 0) {</span>
+<span class="nc" id="L25">                    upleft = rows.get(r-1).get(c-1);</span>
+                } else {
+<span class="nc" id="L27">                    upleft = 0;</span>
+                }
+<span class="nc bnc" id="L29" title="All 2 branches missed.">                if (c &lt; r) {</span>
+<span class="nc" id="L30">                    upright = rows.get(r-1).get(c);</span>
+                } else {
+<span class="nc" id="L32">                    upright = 0;</span>
+                }
+<span class="nc" id="L34">                row.add(upleft+upright);</span>
+            }
+<span class="nc" id="L36">            rows.add(row);</span>
+        }
+
+<span class="fc" id="L39">        return rows;</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>

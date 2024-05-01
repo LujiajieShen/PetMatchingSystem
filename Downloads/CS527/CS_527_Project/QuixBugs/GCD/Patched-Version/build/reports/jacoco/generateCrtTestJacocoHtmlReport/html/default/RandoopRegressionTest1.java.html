@@ -1,0 +1,1435 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>RandoopRegressionTest1.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Patched-Version</a> &gt; <a href="index.source.html" class="el_package">default</a> &gt; <span class="el_source">RandoopRegressionTest1.java</span></div><h1>RandoopRegressionTest1.java</h1><pre class="source lang-java linenums">import org.junit.FixMethodOrder;
+import org.junit.Test;
+import org.junit.runners.MethodSorters;
+
+@FixMethodOrder(MethodSorters.NAME_ASCENDING)
+<span class="fc" id="L6">public class RandoopRegressionTest1 {</span>
+
+<span class="fc" id="L8">    public static boolean debug = false;</span>
+
+    @Test
+    public void test501() throws Throwable {
+<span class="pc bpc" id="L12" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L13">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test501&quot;);</span>
+<span class="fc" id="L14">        int int2 = correct_java_programs.GCD.gcd(97, (int) 'a');</span>
+<span class="pc bpc" id="L15" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 97 + &quot;'&quot;, int2 == 97);</span>
+<span class="fc" id="L16">    }</span>
+
+    @Test
+    public void test502() throws Throwable {
+<span class="pc bpc" id="L20" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L21">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test502&quot;);</span>
+<span class="fc" id="L22">        int int2 = correct_java_programs.GCD.gcd((int) 'a', (int) (short) 100);</span>
+<span class="pc bpc" id="L23" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L24">    }</span>
+
+    @Test
+    public void test503() throws Throwable {
+<span class="pc bpc" id="L28" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L29">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test503&quot;);</span>
+<span class="fc" id="L30">        int int2 = correct_java_programs.GCD.gcd((int) (short) 0, 4);</span>
+<span class="pc bpc" id="L31" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 4 + &quot;'&quot;, int2 == 4);</span>
+<span class="fc" id="L32">    }</span>
+
+    @Test
+    public void test504() throws Throwable {
+<span class="pc bpc" id="L36" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L37">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test504&quot;);</span>
+<span class="fc" id="L38">        int int2 = correct_java_programs.GCD.gcd((int) (byte) 100, (int) (short) 1);</span>
+<span class="pc bpc" id="L39" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L40">    }</span>
+
+    @Test
+    public void test505() throws Throwable {
+<span class="pc bpc" id="L44" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L45">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test505&quot;);</span>
+<span class="fc" id="L46">        int int2 = correct_java_programs.GCD.gcd(10, (int) '#');</span>
+<span class="pc bpc" id="L47" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 5 + &quot;'&quot;, int2 == 5);</span>
+<span class="fc" id="L48">    }</span>
+
+    @Test
+    public void test506() throws Throwable {
+<span class="pc bpc" id="L52" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L53">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test506&quot;);</span>
+<span class="fc" id="L54">        int int2 = correct_java_programs.GCD.gcd(1, (int) (short) 1);</span>
+<span class="pc bpc" id="L55" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L56">    }</span>
+
+    @Test
+    public void test507() throws Throwable {
+<span class="pc bpc" id="L60" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L61">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test507&quot;);</span>
+<span class="fc" id="L62">        int int2 = correct_java_programs.GCD.gcd((int) '#', 52);</span>
+<span class="pc bpc" id="L63" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L64">    }</span>
+
+    @Test
+    public void test508() throws Throwable {
+<span class="pc bpc" id="L68" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L69">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test508&quot;);</span>
+<span class="fc" id="L70">        int int2 = correct_java_programs.GCD.gcd((int) '4', (int) 'a');</span>
+<span class="pc bpc" id="L71" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L72">    }</span>
+
+    @Test
+    public void test509() throws Throwable {
+<span class="pc bpc" id="L76" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L77">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test509&quot;);</span>
+<span class="fc" id="L78">        int int2 = correct_java_programs.GCD.gcd(10, 32);</span>
+<span class="pc bpc" id="L79" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 2 + &quot;'&quot;, int2 == 2);</span>
+<span class="fc" id="L80">    }</span>
+
+    @Test
+    public void test510() throws Throwable {
+<span class="pc bpc" id="L84" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L85">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test510&quot;);</span>
+<span class="fc" id="L86">        int int2 = correct_java_programs.GCD.gcd((int) (byte) 0, (int) 'a');</span>
+<span class="pc bpc" id="L87" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 97 + &quot;'&quot;, int2 == 97);</span>
+<span class="fc" id="L88">    }</span>
+
+    @Test
+    public void test511() throws Throwable {
+<span class="pc bpc" id="L92" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L93">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test511&quot;);</span>
+<span class="fc" id="L94">        int int2 = correct_java_programs.GCD.gcd((int) (short) 100, 2);</span>
+<span class="pc bpc" id="L95" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 2 + &quot;'&quot;, int2 == 2);</span>
+<span class="fc" id="L96">    }</span>
+
+    @Test
+    public void test512() throws Throwable {
+<span class="pc bpc" id="L100" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L101">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test512&quot;);</span>
+<span class="fc" id="L102">        int int2 = correct_java_programs.GCD.gcd(52, (int) (short) 10);</span>
+<span class="pc bpc" id="L103" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 2 + &quot;'&quot;, int2 == 2);</span>
+<span class="fc" id="L104">    }</span>
+
+    @Test
+    public void test513() throws Throwable {
+<span class="pc bpc" id="L108" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L109">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test513&quot;);</span>
+<span class="fc" id="L110">        int int2 = correct_java_programs.GCD.gcd(4, (int) (short) 0);</span>
+<span class="pc bpc" id="L111" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 4 + &quot;'&quot;, int2 == 4);</span>
+<span class="fc" id="L112">    }</span>
+
+    @Test
+    public void test514() throws Throwable {
+<span class="pc bpc" id="L116" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L117">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test514&quot;);</span>
+<span class="fc" id="L118">        int int2 = correct_java_programs.GCD.gcd((int) (short) 100, (int) (byte) 1);</span>
+<span class="pc bpc" id="L119" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L120">    }</span>
+
+    @Test
+    public void test515() throws Throwable {
+<span class="pc bpc" id="L124" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L125">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test515&quot;);</span>
+<span class="fc" id="L126">        int int2 = correct_java_programs.GCD.gcd((int) 'a', (int) ' ');</span>
+<span class="pc bpc" id="L127" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L128">    }</span>
+
+    @Test
+    public void test516() throws Throwable {
+<span class="pc bpc" id="L132" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L133">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test516&quot;);</span>
+<span class="fc" id="L134">        int int2 = correct_java_programs.GCD.gcd((int) (byte) 0, 1);</span>
+<span class="pc bpc" id="L135" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L136">    }</span>
+
+    @Test
+    public void test517() throws Throwable {
+<span class="pc bpc" id="L140" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L141">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test517&quot;);</span>
+<span class="fc" id="L142">        int int2 = correct_java_programs.GCD.gcd(4, 1);</span>
+<span class="pc bpc" id="L143" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L144">    }</span>
+
+    @Test
+    public void test518() throws Throwable {
+<span class="pc bpc" id="L148" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L149">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test518&quot;);</span>
+<span class="fc" id="L150">        int int2 = correct_java_programs.GCD.gcd(1, 32);</span>
+<span class="pc bpc" id="L151" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L152">    }</span>
+
+    @Test
+    public void test519() throws Throwable {
+<span class="pc bpc" id="L156" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L157">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test519&quot;);</span>
+<span class="fc" id="L158">        int int2 = correct_java_programs.GCD.gcd(1, (int) (byte) 0);</span>
+<span class="pc bpc" id="L159" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L160">    }</span>
+
+    @Test
+    public void test520() throws Throwable {
+<span class="pc bpc" id="L164" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L165">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test520&quot;);</span>
+<span class="fc" id="L166">        int int2 = correct_java_programs.GCD.gcd(100, (int) (short) 0);</span>
+<span class="pc bpc" id="L167" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 100 + &quot;'&quot;, int2 == 100);</span>
+<span class="fc" id="L168">    }</span>
+
+    @Test
+    public void test521() throws Throwable {
+<span class="pc bpc" id="L172" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L173">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test521&quot;);</span>
+<span class="fc" id="L174">        int int2 = correct_java_programs.GCD.gcd(35, 100);</span>
+<span class="pc bpc" id="L175" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 5 + &quot;'&quot;, int2 == 5);</span>
+<span class="fc" id="L176">    }</span>
+
+    @Test
+    public void test522() throws Throwable {
+<span class="pc bpc" id="L180" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L181">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test522&quot;);</span>
+<span class="fc" id="L182">        int int2 = correct_java_programs.GCD.gcd((int) (byte) 1, (int) (byte) -1);</span>
+<span class="pc bpc" id="L183" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + (-1) + &quot;'&quot;, int2 == (-1));</span>
+<span class="fc" id="L184">    }</span>
+
+    @Test
+    public void test523() throws Throwable {
+<span class="pc bpc" id="L188" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L189">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test523&quot;);</span>
+<span class="fc" id="L190">        int int2 = correct_java_programs.GCD.gcd((int) (short) -1, (int) '4');</span>
+<span class="pc bpc" id="L191" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + (-1) + &quot;'&quot;, int2 == (-1));</span>
+<span class="fc" id="L192">    }</span>
+
+    @Test
+    public void test524() throws Throwable {
+<span class="pc bpc" id="L196" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L197">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test524&quot;);</span>
+<span class="fc" id="L198">        int int2 = correct_java_programs.GCD.gcd(0, 100);</span>
+<span class="pc bpc" id="L199" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 100 + &quot;'&quot;, int2 == 100);</span>
+<span class="fc" id="L200">    }</span>
+
+    @Test
+    public void test525() throws Throwable {
+<span class="pc bpc" id="L204" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L205">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test525&quot;);</span>
+<span class="fc" id="L206">        int int2 = correct_java_programs.GCD.gcd((int) (short) 0, 97);</span>
+<span class="pc bpc" id="L207" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 97 + &quot;'&quot;, int2 == 97);</span>
+<span class="fc" id="L208">    }</span>
+
+    @Test
+    public void test526() throws Throwable {
+<span class="pc bpc" id="L212" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L213">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test526&quot;);</span>
+<span class="fc" id="L214">        int int2 = correct_java_programs.GCD.gcd(10, (int) (byte) 100);</span>
+<span class="pc bpc" id="L215" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 10 + &quot;'&quot;, int2 == 10);</span>
+<span class="fc" id="L216">    }</span>
+
+    @Test
+    public void test527() throws Throwable {
+<span class="pc bpc" id="L220" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L221">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test527&quot;);</span>
+<span class="fc" id="L222">        int int2 = correct_java_programs.GCD.gcd(2, 1);</span>
+<span class="pc bpc" id="L223" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L224">    }</span>
+
+    @Test
+    public void test528() throws Throwable {
+<span class="pc bpc" id="L228" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L229">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test528&quot;);</span>
+<span class="fc" id="L230">        int int2 = correct_java_programs.GCD.gcd(52, (-1));</span>
+<span class="pc bpc" id="L231" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + (-1) + &quot;'&quot;, int2 == (-1));</span>
+<span class="fc" id="L232">    }</span>
+
+    @Test
+    public void test529() throws Throwable {
+<span class="pc bpc" id="L236" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L237">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test529&quot;);</span>
+<span class="fc" id="L238">        int int2 = correct_java_programs.GCD.gcd((int) ' ', (int) (short) 0);</span>
+<span class="pc bpc" id="L239" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 32 + &quot;'&quot;, int2 == 32);</span>
+<span class="fc" id="L240">    }</span>
+
+    @Test
+    public void test530() throws Throwable {
+<span class="pc bpc" id="L244" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L245">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test530&quot;);</span>
+<span class="fc" id="L246">        int int2 = correct_java_programs.GCD.gcd(97, (int) (short) 100);</span>
+<span class="pc bpc" id="L247" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L248">    }</span>
+
+    @Test
+    public void test531() throws Throwable {
+<span class="pc bpc" id="L252" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L253">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test531&quot;);</span>
+<span class="fc" id="L254">        int int2 = correct_java_programs.GCD.gcd((-1), (int) (byte) -1);</span>
+<span class="pc bpc" id="L255" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + (-1) + &quot;'&quot;, int2 == (-1));</span>
+<span class="fc" id="L256">    }</span>
+
+    @Test
+    public void test532() throws Throwable {
+<span class="pc bpc" id="L260" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L261">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test532&quot;);</span>
+<span class="fc" id="L262">        int int2 = correct_java_programs.GCD.gcd(5, 10);</span>
+<span class="pc bpc" id="L263" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 5 + &quot;'&quot;, int2 == 5);</span>
+<span class="fc" id="L264">    }</span>
+
+    @Test
+    public void test533() throws Throwable {
+<span class="pc bpc" id="L268" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L269">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test533&quot;);</span>
+<span class="fc" id="L270">        int int2 = correct_java_programs.GCD.gcd((int) (short) 0, (-1));</span>
+<span class="pc bpc" id="L271" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + (-1) + &quot;'&quot;, int2 == (-1));</span>
+<span class="fc" id="L272">    }</span>
+
+    @Test
+    public void test534() throws Throwable {
+<span class="pc bpc" id="L276" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L277">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test534&quot;);</span>
+<span class="fc" id="L278">        int int2 = correct_java_programs.GCD.gcd((int) (short) -1, (int) (byte) 0);</span>
+<span class="pc bpc" id="L279" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + (-1) + &quot;'&quot;, int2 == (-1));</span>
+<span class="fc" id="L280">    }</span>
+
+    @Test
+    public void test535() throws Throwable {
+<span class="pc bpc" id="L284" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L285">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test535&quot;);</span>
+<span class="fc" id="L286">        int int2 = correct_java_programs.GCD.gcd(10, (int) (short) 100);</span>
+<span class="pc bpc" id="L287" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 10 + &quot;'&quot;, int2 == 10);</span>
+<span class="fc" id="L288">    }</span>
+
+    @Test
+    public void test536() throws Throwable {
+<span class="pc bpc" id="L292" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L293">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test536&quot;);</span>
+<span class="fc" id="L294">        int int2 = correct_java_programs.GCD.gcd(1, 1);</span>
+<span class="pc bpc" id="L295" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L296">    }</span>
+
+    @Test
+    public void test537() throws Throwable {
+<span class="pc bpc" id="L300" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L301">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test537&quot;);</span>
+<span class="fc" id="L302">        int int2 = correct_java_programs.GCD.gcd(32, (int) '#');</span>
+<span class="pc bpc" id="L303" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L304">    }</span>
+
+    @Test
+    public void test538() throws Throwable {
+<span class="pc bpc" id="L308" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L309">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test538&quot;);</span>
+<span class="fc" id="L310">        int int2 = correct_java_programs.GCD.gcd(100, 1);</span>
+<span class="pc bpc" id="L311" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L312">    }</span>
+
+    @Test
+    public void test539() throws Throwable {
+<span class="pc bpc" id="L316" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L317">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test539&quot;);</span>
+<span class="fc" id="L318">        int int2 = correct_java_programs.GCD.gcd((int) (byte) 10, 10);</span>
+<span class="pc bpc" id="L319" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 10 + &quot;'&quot;, int2 == 10);</span>
+<span class="fc" id="L320">    }</span>
+
+    @Test
+    public void test540() throws Throwable {
+<span class="pc bpc" id="L324" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L325">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test540&quot;);</span>
+<span class="fc" id="L326">        int int2 = correct_java_programs.GCD.gcd((int) ' ', 0);</span>
+<span class="pc bpc" id="L327" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 32 + &quot;'&quot;, int2 == 32);</span>
+<span class="fc" id="L328">    }</span>
+
+    @Test
+    public void test541() throws Throwable {
+<span class="pc bpc" id="L332" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L333">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test541&quot;);</span>
+<span class="fc" id="L334">        int int2 = correct_java_programs.GCD.gcd(2, (int) (short) 10);</span>
+<span class="pc bpc" id="L335" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 2 + &quot;'&quot;, int2 == 2);</span>
+<span class="fc" id="L336">    }</span>
+
+    @Test
+    public void test542() throws Throwable {
+<span class="pc bpc" id="L340" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L341">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test542&quot;);</span>
+<span class="fc" id="L342">        int int2 = correct_java_programs.GCD.gcd((int) (short) -1, 10);</span>
+<span class="pc bpc" id="L343" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + (-1) + &quot;'&quot;, int2 == (-1));</span>
+<span class="fc" id="L344">    }</span>
+
+    @Test
+    public void test543() throws Throwable {
+<span class="pc bpc" id="L348" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L349">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test543&quot;);</span>
+<span class="fc" id="L350">        int int2 = correct_java_programs.GCD.gcd(35, (int) ' ');</span>
+<span class="pc bpc" id="L351" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L352">    }</span>
+
+    @Test
+    public void test544() throws Throwable {
+<span class="pc bpc" id="L356" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L357">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test544&quot;);</span>
+<span class="fc" id="L358">        int int2 = correct_java_programs.GCD.gcd((int) (short) -1, (int) '#');</span>
+<span class="pc bpc" id="L359" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + (-1) + &quot;'&quot;, int2 == (-1));</span>
+<span class="fc" id="L360">    }</span>
+
+    @Test
+    public void test545() throws Throwable {
+<span class="pc bpc" id="L364" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L365">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test545&quot;);</span>
+<span class="fc" id="L366">        int int2 = correct_java_programs.GCD.gcd((int) '4', 10);</span>
+<span class="pc bpc" id="L367" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 2 + &quot;'&quot;, int2 == 2);</span>
+<span class="fc" id="L368">    }</span>
+
+    @Test
+    public void test546() throws Throwable {
+<span class="pc bpc" id="L372" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L373">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test546&quot;);</span>
+<span class="fc" id="L374">        int int2 = correct_java_programs.GCD.gcd((int) (short) 10, 5);</span>
+<span class="pc bpc" id="L375" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 5 + &quot;'&quot;, int2 == 5);</span>
+<span class="fc" id="L376">    }</span>
+
+    @Test
+    public void test547() throws Throwable {
+<span class="pc bpc" id="L380" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L381">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test547&quot;);</span>
+<span class="fc" id="L382">        int int2 = correct_java_programs.GCD.gcd(10, 10);</span>
+<span class="pc bpc" id="L383" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 10 + &quot;'&quot;, int2 == 10);</span>
+<span class="fc" id="L384">    }</span>
+
+    @Test
+    public void test548() throws Throwable {
+<span class="pc bpc" id="L388" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L389">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test548&quot;);</span>
+<span class="fc" id="L390">        int int2 = correct_java_programs.GCD.gcd((int) ' ', 10);</span>
+<span class="pc bpc" id="L391" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 2 + &quot;'&quot;, int2 == 2);</span>
+<span class="fc" id="L392">    }</span>
+
+    @Test
+    public void test549() throws Throwable {
+<span class="pc bpc" id="L396" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L397">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test549&quot;);</span>
+<span class="fc" id="L398">        int int2 = correct_java_programs.GCD.gcd((int) (byte) 100, (int) (short) 0);</span>
+<span class="pc bpc" id="L399" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 100 + &quot;'&quot;, int2 == 100);</span>
+<span class="fc" id="L400">    }</span>
+
+    @Test
+    public void test550() throws Throwable {
+<span class="pc bpc" id="L404" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L405">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test550&quot;);</span>
+<span class="fc" id="L406">        int int2 = correct_java_programs.GCD.gcd(4, 5);</span>
+<span class="pc bpc" id="L407" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L408">    }</span>
+
+    @Test
+    public void test551() throws Throwable {
+<span class="pc bpc" id="L412" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L413">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test551&quot;);</span>
+<span class="fc" id="L414">        int int2 = correct_java_programs.GCD.gcd((-1), 52);</span>
+<span class="pc bpc" id="L415" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + (-1) + &quot;'&quot;, int2 == (-1));</span>
+<span class="fc" id="L416">    }</span>
+
+    @Test
+    public void test552() throws Throwable {
+<span class="pc bpc" id="L420" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L421">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test552&quot;);</span>
+<span class="fc" id="L422">        int int2 = correct_java_programs.GCD.gcd((-1), (int) '4');</span>
+<span class="pc bpc" id="L423" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + (-1) + &quot;'&quot;, int2 == (-1));</span>
+<span class="fc" id="L424">    }</span>
+
+    @Test
+    public void test553() throws Throwable {
+<span class="pc bpc" id="L428" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L429">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test553&quot;);</span>
+<span class="fc" id="L430">        int int2 = correct_java_programs.GCD.gcd(4, 52);</span>
+<span class="pc bpc" id="L431" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 4 + &quot;'&quot;, int2 == 4);</span>
+<span class="fc" id="L432">    }</span>
+
+    @Test
+    public void test554() throws Throwable {
+<span class="pc bpc" id="L436" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L437">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test554&quot;);</span>
+<span class="fc" id="L438">        int int2 = correct_java_programs.GCD.gcd((int) (short) 10, 97);</span>
+<span class="pc bpc" id="L439" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L440">    }</span>
+
+    @Test
+    public void test555() throws Throwable {
+<span class="pc bpc" id="L444" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L445">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test555&quot;);</span>
+<span class="fc" id="L446">        int int2 = correct_java_programs.GCD.gcd((int) (short) -1, 4);</span>
+<span class="pc bpc" id="L447" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + (-1) + &quot;'&quot;, int2 == (-1));</span>
+<span class="fc" id="L448">    }</span>
+
+    @Test
+    public void test556() throws Throwable {
+<span class="pc bpc" id="L452" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L453">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test556&quot;);</span>
+<span class="fc" id="L454">        int int2 = correct_java_programs.GCD.gcd(10, 2);</span>
+<span class="pc bpc" id="L455" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 2 + &quot;'&quot;, int2 == 2);</span>
+<span class="fc" id="L456">    }</span>
+
+    @Test
+    public void test557() throws Throwable {
+<span class="pc bpc" id="L460" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L461">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test557&quot;);</span>
+<span class="fc" id="L462">        int int2 = correct_java_programs.GCD.gcd(35, 1);</span>
+<span class="pc bpc" id="L463" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L464">    }</span>
+
+    @Test
+    public void test558() throws Throwable {
+<span class="pc bpc" id="L468" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L469">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test558&quot;);</span>
+<span class="fc" id="L470">        int int2 = correct_java_programs.GCD.gcd(35, (int) (byte) 100);</span>
+<span class="pc bpc" id="L471" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 5 + &quot;'&quot;, int2 == 5);</span>
+<span class="fc" id="L472">    }</span>
+
+    @Test
+    public void test559() throws Throwable {
+<span class="pc bpc" id="L476" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L477">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test559&quot;);</span>
+<span class="fc" id="L478">        int int2 = correct_java_programs.GCD.gcd(35, 35);</span>
+<span class="pc bpc" id="L479" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 35 + &quot;'&quot;, int2 == 35);</span>
+<span class="fc" id="L480">    }</span>
+
+    @Test
+    public void test560() throws Throwable {
+<span class="pc bpc" id="L484" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L485">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test560&quot;);</span>
+<span class="fc" id="L486">        int int2 = correct_java_programs.GCD.gcd((int) (short) 10, (int) ' ');</span>
+<span class="pc bpc" id="L487" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 2 + &quot;'&quot;, int2 == 2);</span>
+<span class="fc" id="L488">    }</span>
+
+    @Test
+    public void test561() throws Throwable {
+<span class="pc bpc" id="L492" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L493">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test561&quot;);</span>
+<span class="fc" id="L494">        int int2 = correct_java_programs.GCD.gcd((int) ' ', (int) (short) 10);</span>
+<span class="pc bpc" id="L495" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 2 + &quot;'&quot;, int2 == 2);</span>
+<span class="fc" id="L496">    }</span>
+
+    @Test
+    public void test562() throws Throwable {
+<span class="pc bpc" id="L500" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L501">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test562&quot;);</span>
+<span class="fc" id="L502">        int int2 = correct_java_programs.GCD.gcd(5, (int) (short) 10);</span>
+<span class="pc bpc" id="L503" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 5 + &quot;'&quot;, int2 == 5);</span>
+<span class="fc" id="L504">    }</span>
+
+    @Test
+    public void test563() throws Throwable {
+<span class="pc bpc" id="L508" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L509">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test563&quot;);</span>
+<span class="fc" id="L510">        int int2 = correct_java_programs.GCD.gcd((-1), (-1));</span>
+<span class="pc bpc" id="L511" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + (-1) + &quot;'&quot;, int2 == (-1));</span>
+<span class="fc" id="L512">    }</span>
+
+    @Test
+    public void test564() throws Throwable {
+<span class="pc bpc" id="L516" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L517">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test564&quot;);</span>
+<span class="fc" id="L518">        int int2 = correct_java_programs.GCD.gcd((int) (short) 10, 35);</span>
+<span class="pc bpc" id="L519" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 5 + &quot;'&quot;, int2 == 5);</span>
+<span class="fc" id="L520">    }</span>
+
+    @Test
+    public void test565() throws Throwable {
+<span class="pc bpc" id="L524" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L525">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test565&quot;);</span>
+<span class="fc" id="L526">        int int2 = correct_java_programs.GCD.gcd((int) (short) 1, 35);</span>
+<span class="pc bpc" id="L527" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L528">    }</span>
+
+    @Test
+    public void test566() throws Throwable {
+<span class="pc bpc" id="L532" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L533">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test566&quot;);</span>
+<span class="fc" id="L534">        int int2 = correct_java_programs.GCD.gcd((int) (byte) 0, 32);</span>
+<span class="pc bpc" id="L535" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 32 + &quot;'&quot;, int2 == 32);</span>
+<span class="fc" id="L536">    }</span>
+
+    @Test
+    public void test567() throws Throwable {
+<span class="pc bpc" id="L540" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L541">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test567&quot;);</span>
+<span class="fc" id="L542">        int int2 = correct_java_programs.GCD.gcd((int) (short) 100, (int) '#');</span>
+<span class="pc bpc" id="L543" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 5 + &quot;'&quot;, int2 == 5);</span>
+<span class="fc" id="L544">    }</span>
+
+    @Test
+    public void test568() throws Throwable {
+<span class="pc bpc" id="L548" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L549">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test568&quot;);</span>
+<span class="fc" id="L550">        int int2 = correct_java_programs.GCD.gcd(32, 4);</span>
+<span class="pc bpc" id="L551" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 4 + &quot;'&quot;, int2 == 4);</span>
+<span class="fc" id="L552">    }</span>
+
+    @Test
+    public void test569() throws Throwable {
+<span class="pc bpc" id="L556" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L557">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test569&quot;);</span>
+<span class="fc" id="L558">        int int2 = correct_java_programs.GCD.gcd(52, 1);</span>
+<span class="pc bpc" id="L559" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L560">    }</span>
+
+    @Test
+    public void test570() throws Throwable {
+<span class="pc bpc" id="L564" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L565">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test570&quot;);</span>
+<span class="fc" id="L566">        int int2 = correct_java_programs.GCD.gcd(100, (int) (byte) -1);</span>
+<span class="pc bpc" id="L567" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + (-1) + &quot;'&quot;, int2 == (-1));</span>
+<span class="fc" id="L568">    }</span>
+
+    @Test
+    public void test571() throws Throwable {
+<span class="pc bpc" id="L572" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L573">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test571&quot;);</span>
+<span class="fc" id="L574">        int int2 = correct_java_programs.GCD.gcd(0, (int) '4');</span>
+<span class="pc bpc" id="L575" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 52 + &quot;'&quot;, int2 == 52);</span>
+<span class="fc" id="L576">    }</span>
+
+    @Test
+    public void test572() throws Throwable {
+<span class="pc bpc" id="L580" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L581">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test572&quot;);</span>
+<span class="fc" id="L582">        int int2 = correct_java_programs.GCD.gcd(10, (int) (byte) 0);</span>
+<span class="pc bpc" id="L583" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 10 + &quot;'&quot;, int2 == 10);</span>
+<span class="fc" id="L584">    }</span>
+
+    @Test
+    public void test573() throws Throwable {
+<span class="pc bpc" id="L588" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L589">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test573&quot;);</span>
+<span class="fc" id="L590">        int int2 = correct_java_programs.GCD.gcd(2, (int) (byte) 1);</span>
+<span class="pc bpc" id="L591" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L592">    }</span>
+
+    @Test
+    public void test574() throws Throwable {
+<span class="pc bpc" id="L596" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L597">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test574&quot;);</span>
+<span class="fc" id="L598">        int int2 = correct_java_programs.GCD.gcd(32, (int) ' ');</span>
+<span class="pc bpc" id="L599" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 32 + &quot;'&quot;, int2 == 32);</span>
+<span class="fc" id="L600">    }</span>
+
+    @Test
+    public void test575() throws Throwable {
+<span class="pc bpc" id="L604" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L605">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test575&quot;);</span>
+<span class="fc" id="L606">        int int2 = correct_java_programs.GCD.gcd(4, (int) (byte) 10);</span>
+<span class="pc bpc" id="L607" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 2 + &quot;'&quot;, int2 == 2);</span>
+<span class="fc" id="L608">    }</span>
+
+    @Test
+    public void test576() throws Throwable {
+<span class="pc bpc" id="L612" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L613">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test576&quot;);</span>
+<span class="fc" id="L614">        int int2 = correct_java_programs.GCD.gcd((int) (byte) 100, 32);</span>
+<span class="pc bpc" id="L615" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 4 + &quot;'&quot;, int2 == 4);</span>
+<span class="fc" id="L616">    }</span>
+
+    @Test
+    public void test577() throws Throwable {
+<span class="pc bpc" id="L620" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L621">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test577&quot;);</span>
+<span class="fc" id="L622">        int int2 = correct_java_programs.GCD.gcd(4, 100);</span>
+<span class="pc bpc" id="L623" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 4 + &quot;'&quot;, int2 == 4);</span>
+<span class="fc" id="L624">    }</span>
+
+    @Test
+    public void test578() throws Throwable {
+<span class="pc bpc" id="L628" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L629">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test578&quot;);</span>
+<span class="fc" id="L630">        int int2 = correct_java_programs.GCD.gcd(100, (int) 'a');</span>
+<span class="pc bpc" id="L631" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L632">    }</span>
+
+    @Test
+    public void test579() throws Throwable {
+<span class="pc bpc" id="L636" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L637">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test579&quot;);</span>
+<span class="fc" id="L638">        int int2 = correct_java_programs.GCD.gcd(52, (int) 'a');</span>
+<span class="pc bpc" id="L639" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L640">    }</span>
+
+    @Test
+    public void test580() throws Throwable {
+<span class="pc bpc" id="L644" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L645">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test580&quot;);</span>
+<span class="fc" id="L646">        int int2 = correct_java_programs.GCD.gcd((int) (short) 10, 1);</span>
+<span class="pc bpc" id="L647" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L648">    }</span>
+
+    @Test
+    public void test581() throws Throwable {
+<span class="pc bpc" id="L652" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L653">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test581&quot;);</span>
+<span class="fc" id="L654">        int int2 = correct_java_programs.GCD.gcd((int) '4', (int) '4');</span>
+<span class="pc bpc" id="L655" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 52 + &quot;'&quot;, int2 == 52);</span>
+<span class="fc" id="L656">    }</span>
+
+    @Test
+    public void test582() throws Throwable {
+<span class="pc bpc" id="L660" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L661">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test582&quot;);</span>
+<span class="fc" id="L662">        int int2 = correct_java_programs.GCD.gcd((int) (short) 0, (int) (byte) 100);</span>
+<span class="pc bpc" id="L663" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 100 + &quot;'&quot;, int2 == 100);</span>
+<span class="fc" id="L664">    }</span>
+
+    @Test
+    public void test583() throws Throwable {
+<span class="pc bpc" id="L668" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L669">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test583&quot;);</span>
+<span class="fc" id="L670">        int int2 = correct_java_programs.GCD.gcd(32, 100);</span>
+<span class="pc bpc" id="L671" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 4 + &quot;'&quot;, int2 == 4);</span>
+<span class="fc" id="L672">    }</span>
+
+    @Test
+    public void test584() throws Throwable {
+<span class="pc bpc" id="L676" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L677">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test584&quot;);</span>
+<span class="fc" id="L678">        int int2 = correct_java_programs.GCD.gcd(97, (int) (short) -1);</span>
+<span class="pc bpc" id="L679" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + (-1) + &quot;'&quot;, int2 == (-1));</span>
+<span class="fc" id="L680">    }</span>
+
+    @Test
+    public void test585() throws Throwable {
+<span class="pc bpc" id="L684" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L685">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test585&quot;);</span>
+<span class="fc" id="L686">        int int2 = correct_java_programs.GCD.gcd((int) (byte) 10, (int) '4');</span>
+<span class="pc bpc" id="L687" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 2 + &quot;'&quot;, int2 == 2);</span>
+<span class="fc" id="L688">    }</span>
+
+    @Test
+    public void test586() throws Throwable {
+<span class="pc bpc" id="L692" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L693">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test586&quot;);</span>
+<span class="fc" id="L694">        int int2 = correct_java_programs.GCD.gcd(52, (int) '4');</span>
+<span class="pc bpc" id="L695" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 52 + &quot;'&quot;, int2 == 52);</span>
+<span class="fc" id="L696">    }</span>
+
+    @Test
+    public void test587() throws Throwable {
+<span class="pc bpc" id="L700" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L701">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test587&quot;);</span>
+<span class="fc" id="L702">        int int2 = correct_java_programs.GCD.gcd(2, (int) '4');</span>
+<span class="pc bpc" id="L703" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 2 + &quot;'&quot;, int2 == 2);</span>
+<span class="fc" id="L704">    }</span>
+
+    @Test
+    public void test588() throws Throwable {
+<span class="pc bpc" id="L708" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L709">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test588&quot;);</span>
+<span class="fc" id="L710">        int int2 = correct_java_programs.GCD.gcd(97, 1);</span>
+<span class="pc bpc" id="L711" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L712">    }</span>
+
+    @Test
+    public void test589() throws Throwable {
+<span class="pc bpc" id="L716" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L717">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test589&quot;);</span>
+<span class="fc" id="L718">        int int2 = correct_java_programs.GCD.gcd((int) (byte) 0, (int) (byte) 10);</span>
+<span class="pc bpc" id="L719" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 10 + &quot;'&quot;, int2 == 10);</span>
+<span class="fc" id="L720">    }</span>
+
+    @Test
+    public void test590() throws Throwable {
+<span class="pc bpc" id="L724" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L725">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test590&quot;);</span>
+<span class="fc" id="L726">        int int2 = correct_java_programs.GCD.gcd((int) (byte) -1, 4);</span>
+<span class="pc bpc" id="L727" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + (-1) + &quot;'&quot;, int2 == (-1));</span>
+<span class="fc" id="L728">    }</span>
+
+    @Test
+    public void test591() throws Throwable {
+<span class="pc bpc" id="L732" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L733">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test591&quot;);</span>
+<span class="fc" id="L734">        int int2 = correct_java_programs.GCD.gcd((int) (byte) -1, (int) (short) 100);</span>
+<span class="pc bpc" id="L735" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + (-1) + &quot;'&quot;, int2 == (-1));</span>
+<span class="fc" id="L736">    }</span>
+
+    @Test
+    public void test592() throws Throwable {
+<span class="pc bpc" id="L740" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L741">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test592&quot;);</span>
+<span class="fc" id="L742">        int int2 = correct_java_programs.GCD.gcd((int) (short) 0, (int) (short) -1);</span>
+<span class="pc bpc" id="L743" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + (-1) + &quot;'&quot;, int2 == (-1));</span>
+<span class="fc" id="L744">    }</span>
+
+    @Test
+    public void test593() throws Throwable {
+<span class="pc bpc" id="L748" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L749">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test593&quot;);</span>
+<span class="fc" id="L750">        int int2 = correct_java_programs.GCD.gcd(97, 4);</span>
+<span class="pc bpc" id="L751" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L752">    }</span>
+
+    @Test
+    public void test594() throws Throwable {
+<span class="pc bpc" id="L756" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L757">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test594&quot;);</span>
+<span class="fc" id="L758">        int int2 = correct_java_programs.GCD.gcd(32, (int) (short) 0);</span>
+<span class="pc bpc" id="L759" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 32 + &quot;'&quot;, int2 == 32);</span>
+<span class="fc" id="L760">    }</span>
+
+    @Test
+    public void test595() throws Throwable {
+<span class="pc bpc" id="L764" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L765">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test595&quot;);</span>
+<span class="fc" id="L766">        int int2 = correct_java_programs.GCD.gcd((int) '#', (int) '4');</span>
+<span class="pc bpc" id="L767" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L768">    }</span>
+
+    @Test
+    public void test596() throws Throwable {
+<span class="pc bpc" id="L772" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L773">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test596&quot;);</span>
+<span class="fc" id="L774">        int int2 = correct_java_programs.GCD.gcd(100, (int) '#');</span>
+<span class="pc bpc" id="L775" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 5 + &quot;'&quot;, int2 == 5);</span>
+<span class="fc" id="L776">    }</span>
+
+    @Test
+    public void test597() throws Throwable {
+<span class="pc bpc" id="L780" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L781">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test597&quot;);</span>
+<span class="fc" id="L782">        int int2 = correct_java_programs.GCD.gcd((int) (short) -1, 100);</span>
+<span class="pc bpc" id="L783" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + (-1) + &quot;'&quot;, int2 == (-1));</span>
+<span class="fc" id="L784">    }</span>
+
+    @Test
+    public void test598() throws Throwable {
+<span class="pc bpc" id="L788" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L789">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test598&quot;);</span>
+<span class="fc" id="L790">        int int2 = correct_java_programs.GCD.gcd((int) (byte) -1, (int) (byte) 10);</span>
+<span class="pc bpc" id="L791" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + (-1) + &quot;'&quot;, int2 == (-1));</span>
+<span class="fc" id="L792">    }</span>
+
+    @Test
+    public void test599() throws Throwable {
+<span class="pc bpc" id="L796" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L797">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test599&quot;);</span>
+<span class="fc" id="L798">        int int2 = correct_java_programs.GCD.gcd((int) (short) 100, (int) (short) 1);</span>
+<span class="pc bpc" id="L799" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L800">    }</span>
+
+    @Test
+    public void test600() throws Throwable {
+<span class="pc bpc" id="L804" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L805">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test600&quot;);</span>
+<span class="fc" id="L806">        int int2 = correct_java_programs.GCD.gcd(100, 35);</span>
+<span class="pc bpc" id="L807" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 5 + &quot;'&quot;, int2 == 5);</span>
+<span class="fc" id="L808">    }</span>
+
+    @Test
+    public void test601() throws Throwable {
+<span class="pc bpc" id="L812" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L813">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test601&quot;);</span>
+<span class="fc" id="L814">        int int2 = correct_java_programs.GCD.gcd(32, 5);</span>
+<span class="pc bpc" id="L815" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L816">    }</span>
+
+    @Test
+    public void test602() throws Throwable {
+<span class="pc bpc" id="L820" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L821">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test602&quot;);</span>
+<span class="fc" id="L822">        int int2 = correct_java_programs.GCD.gcd((int) (byte) 10, 2);</span>
+<span class="pc bpc" id="L823" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 2 + &quot;'&quot;, int2 == 2);</span>
+<span class="fc" id="L824">    }</span>
+
+    @Test
+    public void test603() throws Throwable {
+<span class="pc bpc" id="L828" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L829">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test603&quot;);</span>
+<span class="fc" id="L830">        int int2 = correct_java_programs.GCD.gcd(4, (int) (byte) -1);</span>
+<span class="pc bpc" id="L831" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + (-1) + &quot;'&quot;, int2 == (-1));</span>
+<span class="fc" id="L832">    }</span>
+
+    @Test
+    public void test604() throws Throwable {
+<span class="pc bpc" id="L836" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L837">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test604&quot;);</span>
+<span class="fc" id="L838">        int int2 = correct_java_programs.GCD.gcd((int) (byte) 1, 32);</span>
+<span class="pc bpc" id="L839" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L840">    }</span>
+
+    @Test
+    public void test605() throws Throwable {
+<span class="pc bpc" id="L844" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L845">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test605&quot;);</span>
+<span class="fc" id="L846">        int int2 = correct_java_programs.GCD.gcd((int) (byte) 0, (-1));</span>
+<span class="pc bpc" id="L847" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + (-1) + &quot;'&quot;, int2 == (-1));</span>
+<span class="fc" id="L848">    }</span>
+
+    @Test
+    public void test606() throws Throwable {
+<span class="pc bpc" id="L852" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L853">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test606&quot;);</span>
+<span class="fc" id="L854">        int int2 = correct_java_programs.GCD.gcd(1, 35);</span>
+<span class="pc bpc" id="L855" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L856">    }</span>
+
+    @Test
+    public void test607() throws Throwable {
+<span class="pc bpc" id="L860" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L861">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test607&quot;);</span>
+<span class="fc" id="L862">        int int2 = correct_java_programs.GCD.gcd(52, 2);</span>
+<span class="pc bpc" id="L863" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 2 + &quot;'&quot;, int2 == 2);</span>
+<span class="fc" id="L864">    }</span>
+
+    @Test
+    public void test608() throws Throwable {
+<span class="pc bpc" id="L868" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L869">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test608&quot;);</span>
+<span class="fc" id="L870">        int int2 = correct_java_programs.GCD.gcd((int) (short) -1, (int) 'a');</span>
+<span class="pc bpc" id="L871" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + (-1) + &quot;'&quot;, int2 == (-1));</span>
+<span class="fc" id="L872">    }</span>
+
+    @Test
+    public void test609() throws Throwable {
+<span class="pc bpc" id="L876" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L877">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test609&quot;);</span>
+<span class="fc" id="L878">        int int2 = correct_java_programs.GCD.gcd((int) (short) 1, (int) 'a');</span>
+<span class="pc bpc" id="L879" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L880">    }</span>
+
+    @Test
+    public void test610() throws Throwable {
+<span class="pc bpc" id="L884" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L885">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test610&quot;);</span>
+<span class="fc" id="L886">        int int2 = correct_java_programs.GCD.gcd((int) (byte) 1, (int) (byte) 100);</span>
+<span class="pc bpc" id="L887" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L888">    }</span>
+
+    @Test
+    public void test611() throws Throwable {
+<span class="pc bpc" id="L892" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L893">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test611&quot;);</span>
+<span class="fc" id="L894">        int int2 = correct_java_programs.GCD.gcd((int) '#', (int) (byte) 1);</span>
+<span class="pc bpc" id="L895" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L896">    }</span>
+
+    @Test
+    public void test612() throws Throwable {
+<span class="pc bpc" id="L900" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L901">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test612&quot;);</span>
+<span class="fc" id="L902">        int int2 = correct_java_programs.GCD.gcd((int) ' ', 2);</span>
+<span class="pc bpc" id="L903" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 2 + &quot;'&quot;, int2 == 2);</span>
+<span class="fc" id="L904">    }</span>
+
+    @Test
+    public void test613() throws Throwable {
+<span class="pc bpc" id="L908" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L909">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test613&quot;);</span>
+<span class="fc" id="L910">        int int2 = correct_java_programs.GCD.gcd((int) '#', 32);</span>
+<span class="pc bpc" id="L911" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L912">    }</span>
+
+    @Test
+    public void test614() throws Throwable {
+<span class="pc bpc" id="L916" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L917">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test614&quot;);</span>
+<span class="fc" id="L918">        int int2 = correct_java_programs.GCD.gcd((int) '#', (int) (byte) 100);</span>
+<span class="pc bpc" id="L919" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 5 + &quot;'&quot;, int2 == 5);</span>
+<span class="fc" id="L920">    }</span>
+
+    @Test
+    public void test615() throws Throwable {
+<span class="pc bpc" id="L924" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L925">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test615&quot;);</span>
+<span class="fc" id="L926">        int int2 = correct_java_programs.GCD.gcd((-1), 1);</span>
+<span class="pc bpc" id="L927" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L928">    }</span>
+
+    @Test
+    public void test616() throws Throwable {
+<span class="pc bpc" id="L932" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L933">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test616&quot;);</span>
+<span class="fc" id="L934">        int int2 = correct_java_programs.GCD.gcd(100, 5);</span>
+<span class="pc bpc" id="L935" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 5 + &quot;'&quot;, int2 == 5);</span>
+<span class="fc" id="L936">    }</span>
+
+    @Test
+    public void test617() throws Throwable {
+<span class="pc bpc" id="L940" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L941">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test617&quot;);</span>
+<span class="fc" id="L942">        int int2 = correct_java_programs.GCD.gcd((int) '#', (int) 'a');</span>
+<span class="pc bpc" id="L943" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L944">    }</span>
+
+    @Test
+    public void test618() throws Throwable {
+<span class="pc bpc" id="L948" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L949">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test618&quot;);</span>
+<span class="fc" id="L950">        int int2 = correct_java_programs.GCD.gcd((int) (short) 100, (int) ' ');</span>
+<span class="pc bpc" id="L951" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 4 + &quot;'&quot;, int2 == 4);</span>
+<span class="fc" id="L952">    }</span>
+
+    @Test
+    public void test619() throws Throwable {
+<span class="pc bpc" id="L956" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L957">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test619&quot;);</span>
+<span class="fc" id="L958">        int int2 = correct_java_programs.GCD.gcd((int) (byte) 100, (int) (byte) -1);</span>
+<span class="pc bpc" id="L959" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + (-1) + &quot;'&quot;, int2 == (-1));</span>
+<span class="fc" id="L960">    }</span>
+
+    @Test
+    public void test620() throws Throwable {
+<span class="pc bpc" id="L964" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L965">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test620&quot;);</span>
+<span class="fc" id="L966">        int int2 = correct_java_programs.GCD.gcd((int) 'a', 52);</span>
+<span class="pc bpc" id="L967" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L968">    }</span>
+
+    @Test
+    public void test621() throws Throwable {
+<span class="pc bpc" id="L972" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L973">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test621&quot;);</span>
+<span class="fc" id="L974">        int int2 = correct_java_programs.GCD.gcd((int) (short) 10, (int) (byte) 100);</span>
+<span class="pc bpc" id="L975" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 10 + &quot;'&quot;, int2 == 10);</span>
+<span class="fc" id="L976">    }</span>
+
+    @Test
+    public void test622() throws Throwable {
+<span class="pc bpc" id="L980" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L981">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test622&quot;);</span>
+<span class="fc" id="L982">        int int2 = correct_java_programs.GCD.gcd((int) (byte) -1, (int) (byte) 0);</span>
+<span class="pc bpc" id="L983" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + (-1) + &quot;'&quot;, int2 == (-1));</span>
+<span class="fc" id="L984">    }</span>
+
+    @Test
+    public void test623() throws Throwable {
+<span class="pc bpc" id="L988" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L989">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test623&quot;);</span>
+<span class="fc" id="L990">        int int2 = correct_java_programs.GCD.gcd((int) (byte) 0, (int) (short) 10);</span>
+<span class="pc bpc" id="L991" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 10 + &quot;'&quot;, int2 == 10);</span>
+<span class="fc" id="L992">    }</span>
+
+    @Test
+    public void test624() throws Throwable {
+<span class="pc bpc" id="L996" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L997">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test624&quot;);</span>
+<span class="fc" id="L998">        int int2 = correct_java_programs.GCD.gcd((int) (byte) 1, 97);</span>
+<span class="pc bpc" id="L999" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L1000">    }</span>
+
+    @Test
+    public void test625() throws Throwable {
+<span class="pc bpc" id="L1004" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L1005">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test625&quot;);</span>
+<span class="fc" id="L1006">        int int2 = correct_java_programs.GCD.gcd((int) (byte) 100, (int) (byte) 0);</span>
+<span class="pc bpc" id="L1007" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 100 + &quot;'&quot;, int2 == 100);</span>
+<span class="fc" id="L1008">    }</span>
+
+    @Test
+    public void test626() throws Throwable {
+<span class="pc bpc" id="L1012" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L1013">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test626&quot;);</span>
+<span class="fc" id="L1014">        int int2 = correct_java_programs.GCD.gcd((int) (byte) 0, 2);</span>
+<span class="pc bpc" id="L1015" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 2 + &quot;'&quot;, int2 == 2);</span>
+<span class="fc" id="L1016">    }</span>
+
+    @Test
+    public void test627() throws Throwable {
+<span class="pc bpc" id="L1020" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L1021">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test627&quot;);</span>
+<span class="fc" id="L1022">        int int2 = correct_java_programs.GCD.gcd(4, (int) (short) 1);</span>
+<span class="pc bpc" id="L1023" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L1024">    }</span>
+
+    @Test
+    public void test628() throws Throwable {
+<span class="pc bpc" id="L1028" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L1029">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test628&quot;);</span>
+<span class="fc" id="L1030">        int int2 = correct_java_programs.GCD.gcd((int) (byte) 1, 52);</span>
+<span class="pc bpc" id="L1031" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L1032">    }</span>
+
+    @Test
+    public void test629() throws Throwable {
+<span class="pc bpc" id="L1036" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L1037">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test629&quot;);</span>
+<span class="fc" id="L1038">        int int2 = correct_java_programs.GCD.gcd(5, (int) (short) 1);</span>
+<span class="pc bpc" id="L1039" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L1040">    }</span>
+
+    @Test
+    public void test630() throws Throwable {
+<span class="pc bpc" id="L1044" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L1045">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test630&quot;);</span>
+<span class="fc" id="L1046">        int int2 = correct_java_programs.GCD.gcd(52, (int) (short) 1);</span>
+<span class="pc bpc" id="L1047" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L1048">    }</span>
+
+    @Test
+    public void test631() throws Throwable {
+<span class="pc bpc" id="L1052" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L1053">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test631&quot;);</span>
+<span class="fc" id="L1054">        int int2 = correct_java_programs.GCD.gcd(1, (int) ' ');</span>
+<span class="pc bpc" id="L1055" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L1056">    }</span>
+
+    @Test
+    public void test632() throws Throwable {
+<span class="pc bpc" id="L1060" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L1061">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test632&quot;);</span>
+<span class="fc" id="L1062">        int int2 = correct_java_programs.GCD.gcd((int) 'a', (int) (short) 0);</span>
+<span class="pc bpc" id="L1063" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 97 + &quot;'&quot;, int2 == 97);</span>
+<span class="fc" id="L1064">    }</span>
+
+    @Test
+    public void test633() throws Throwable {
+<span class="pc bpc" id="L1068" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L1069">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test633&quot;);</span>
+<span class="fc" id="L1070">        int int2 = correct_java_programs.GCD.gcd((int) '#', 35);</span>
+<span class="pc bpc" id="L1071" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 35 + &quot;'&quot;, int2 == 35);</span>
+<span class="fc" id="L1072">    }</span>
+
+    @Test
+    public void test634() throws Throwable {
+<span class="pc bpc" id="L1076" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L1077">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test634&quot;);</span>
+<span class="fc" id="L1078">        int int2 = correct_java_programs.GCD.gcd((int) (byte) -1, (int) (short) 0);</span>
+<span class="pc bpc" id="L1079" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + (-1) + &quot;'&quot;, int2 == (-1));</span>
+<span class="fc" id="L1080">    }</span>
+
+    @Test
+    public void test635() throws Throwable {
+<span class="pc bpc" id="L1084" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L1085">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test635&quot;);</span>
+<span class="fc" id="L1086">        int int2 = correct_java_programs.GCD.gcd((-1), 97);</span>
+<span class="pc bpc" id="L1087" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + (-1) + &quot;'&quot;, int2 == (-1));</span>
+<span class="fc" id="L1088">    }</span>
+
+    @Test
+    public void test636() throws Throwable {
+<span class="pc bpc" id="L1092" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L1093">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test636&quot;);</span>
+<span class="fc" id="L1094">        int int2 = correct_java_programs.GCD.gcd((int) (short) 0, (int) (byte) 0);</span>
+<span class="pc bpc" id="L1095" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 0 + &quot;'&quot;, int2 == 0);</span>
+<span class="fc" id="L1096">    }</span>
+
+    @Test
+    public void test637() throws Throwable {
+<span class="pc bpc" id="L1100" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L1101">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test637&quot;);</span>
+<span class="fc" id="L1102">        int int2 = correct_java_programs.GCD.gcd(32, 97);</span>
+<span class="pc bpc" id="L1103" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L1104">    }</span>
+
+    @Test
+    public void test638() throws Throwable {
+<span class="pc bpc" id="L1108" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L1109">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test638&quot;);</span>
+<span class="fc" id="L1110">        int int2 = correct_java_programs.GCD.gcd((int) '4', 2);</span>
+<span class="pc bpc" id="L1111" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 2 + &quot;'&quot;, int2 == 2);</span>
+<span class="fc" id="L1112">    }</span>
+
+    @Test
+    public void test639() throws Throwable {
+<span class="pc bpc" id="L1116" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L1117">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test639&quot;);</span>
+<span class="fc" id="L1118">        int int2 = correct_java_programs.GCD.gcd(35, 97);</span>
+<span class="pc bpc" id="L1119" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L1120">    }</span>
+
+    @Test
+    public void test640() throws Throwable {
+<span class="pc bpc" id="L1124" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L1125">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test640&quot;);</span>
+<span class="fc" id="L1126">        int int2 = correct_java_programs.GCD.gcd(5, 2);</span>
+<span class="pc bpc" id="L1127" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L1128">    }</span>
+
+    @Test
+    public void test641() throws Throwable {
+<span class="pc bpc" id="L1132" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L1133">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test641&quot;);</span>
+<span class="fc" id="L1134">        int int2 = correct_java_programs.GCD.gcd(97, (-1));</span>
+<span class="pc bpc" id="L1135" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + (-1) + &quot;'&quot;, int2 == (-1));</span>
+<span class="fc" id="L1136">    }</span>
+
+    @Test
+    public void test642() throws Throwable {
+<span class="pc bpc" id="L1140" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L1141">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test642&quot;);</span>
+<span class="fc" id="L1142">        int int2 = correct_java_programs.GCD.gcd((-1), (int) '#');</span>
+<span class="pc bpc" id="L1143" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + (-1) + &quot;'&quot;, int2 == (-1));</span>
+<span class="fc" id="L1144">    }</span>
+
+    @Test
+    public void test643() throws Throwable {
+<span class="pc bpc" id="L1148" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L1149">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test643&quot;);</span>
+<span class="fc" id="L1150">        int int2 = correct_java_programs.GCD.gcd((int) (byte) 10, (int) (short) 0);</span>
+<span class="pc bpc" id="L1151" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 10 + &quot;'&quot;, int2 == 10);</span>
+<span class="fc" id="L1152">    }</span>
+
+    @Test
+    public void test644() throws Throwable {
+<span class="pc bpc" id="L1156" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L1157">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test644&quot;);</span>
+<span class="fc" id="L1158">        int int2 = correct_java_programs.GCD.gcd(100, 32);</span>
+<span class="pc bpc" id="L1159" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 4 + &quot;'&quot;, int2 == 4);</span>
+<span class="fc" id="L1160">    }</span>
+
+    @Test
+    public void test645() throws Throwable {
+<span class="pc bpc" id="L1164" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L1165">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test645&quot;);</span>
+<span class="fc" id="L1166">        int int2 = correct_java_programs.GCD.gcd(1, 4);</span>
+<span class="pc bpc" id="L1167" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L1168">    }</span>
+
+    @Test
+    public void test646() throws Throwable {
+<span class="pc bpc" id="L1172" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L1173">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test646&quot;);</span>
+<span class="fc" id="L1174">        int int2 = correct_java_programs.GCD.gcd((int) ' ', 97);</span>
+<span class="pc bpc" id="L1175" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L1176">    }</span>
+
+    @Test
+    public void test647() throws Throwable {
+<span class="pc bpc" id="L1180" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L1181">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test647&quot;);</span>
+<span class="fc" id="L1182">        int int2 = correct_java_programs.GCD.gcd(52, 35);</span>
+<span class="pc bpc" id="L1183" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L1184">    }</span>
+
+    @Test
+    public void test648() throws Throwable {
+<span class="pc bpc" id="L1188" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L1189">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test648&quot;);</span>
+<span class="fc" id="L1190">        int int2 = correct_java_programs.GCD.gcd((int) 'a', 97);</span>
+<span class="pc bpc" id="L1191" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 97 + &quot;'&quot;, int2 == 97);</span>
+<span class="fc" id="L1192">    }</span>
+
+    @Test
+    public void test649() throws Throwable {
+<span class="pc bpc" id="L1196" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L1197">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test649&quot;);</span>
+<span class="fc" id="L1198">        int int2 = correct_java_programs.GCD.gcd((int) 'a', 5);</span>
+<span class="pc bpc" id="L1199" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L1200">    }</span>
+
+    @Test
+    public void test650() throws Throwable {
+<span class="pc bpc" id="L1204" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L1205">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test650&quot;);</span>
+<span class="fc" id="L1206">        int int2 = correct_java_programs.GCD.gcd((int) (short) 10, (int) (short) 1);</span>
+<span class="pc bpc" id="L1207" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L1208">    }</span>
+
+    @Test
+    public void test651() throws Throwable {
+<span class="pc bpc" id="L1212" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L1213">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test651&quot;);</span>
+<span class="fc" id="L1214">        int int2 = correct_java_programs.GCD.gcd((-1), (int) ' ');</span>
+<span class="pc bpc" id="L1215" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + (-1) + &quot;'&quot;, int2 == (-1));</span>
+<span class="fc" id="L1216">    }</span>
+
+    @Test
+    public void test652() throws Throwable {
+<span class="pc bpc" id="L1220" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L1221">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test652&quot;);</span>
+<span class="fc" id="L1222">        int int2 = correct_java_programs.GCD.gcd(97, 10);</span>
+<span class="pc bpc" id="L1223" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L1224">    }</span>
+
+    @Test
+    public void test653() throws Throwable {
+<span class="pc bpc" id="L1228" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L1229">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test653&quot;);</span>
+<span class="fc" id="L1230">        int int2 = correct_java_programs.GCD.gcd(5, (int) (short) 100);</span>
+<span class="pc bpc" id="L1231" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 5 + &quot;'&quot;, int2 == 5);</span>
+<span class="fc" id="L1232">    }</span>
+
+    @Test
+    public void test654() throws Throwable {
+<span class="pc bpc" id="L1236" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L1237">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test654&quot;);</span>
+<span class="fc" id="L1238">        int int2 = correct_java_programs.GCD.gcd((int) '4', (int) (byte) 1);</span>
+<span class="pc bpc" id="L1239" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L1240">    }</span>
+
+    @Test
+    public void test655() throws Throwable {
+<span class="pc bpc" id="L1244" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L1245">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test655&quot;);</span>
+<span class="fc" id="L1246">        int int2 = correct_java_programs.GCD.gcd((int) (byte) 100, 5);</span>
+<span class="pc bpc" id="L1247" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 5 + &quot;'&quot;, int2 == 5);</span>
+<span class="fc" id="L1248">    }</span>
+
+    @Test
+    public void test656() throws Throwable {
+<span class="pc bpc" id="L1252" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L1253">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test656&quot;);</span>
+<span class="fc" id="L1254">        int int2 = correct_java_programs.GCD.gcd((int) ' ', (int) (short) 100);</span>
+<span class="pc bpc" id="L1255" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 4 + &quot;'&quot;, int2 == 4);</span>
+<span class="fc" id="L1256">    }</span>
+
+    @Test
+    public void test657() throws Throwable {
+<span class="pc bpc" id="L1260" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L1261">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test657&quot;);</span>
+<span class="fc" id="L1262">        int int2 = correct_java_programs.GCD.gcd(1, 97);</span>
+<span class="pc bpc" id="L1263" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L1264">    }</span>
+
+    @Test
+    public void test658() throws Throwable {
+<span class="pc bpc" id="L1268" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L1269">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test658&quot;);</span>
+<span class="fc" id="L1270">        int int2 = correct_java_programs.GCD.gcd((int) (short) 10, (int) (short) -1);</span>
+<span class="pc bpc" id="L1271" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + (-1) + &quot;'&quot;, int2 == (-1));</span>
+<span class="fc" id="L1272">    }</span>
+
+    @Test
+    public void test659() throws Throwable {
+<span class="pc bpc" id="L1276" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L1277">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test659&quot;);</span>
+<span class="fc" id="L1278">        int int2 = correct_java_programs.GCD.gcd((int) (byte) 1, 4);</span>
+<span class="pc bpc" id="L1279" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L1280">    }</span>
+
+    @Test
+    public void test660() throws Throwable {
+<span class="pc bpc" id="L1284" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L1285">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test660&quot;);</span>
+<span class="fc" id="L1286">        int int2 = correct_java_programs.GCD.gcd((int) ' ', 4);</span>
+<span class="pc bpc" id="L1287" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 4 + &quot;'&quot;, int2 == 4);</span>
+<span class="fc" id="L1288">    }</span>
+
+    @Test
+    public void test661() throws Throwable {
+<span class="pc bpc" id="L1292" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L1293">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test661&quot;);</span>
+<span class="fc" id="L1294">        int int2 = correct_java_programs.GCD.gcd(2, 10);</span>
+<span class="pc bpc" id="L1295" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 2 + &quot;'&quot;, int2 == 2);</span>
+<span class="fc" id="L1296">    }</span>
+
+    @Test
+    public void test662() throws Throwable {
+<span class="pc bpc" id="L1300" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L1301">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test662&quot;);</span>
+<span class="fc" id="L1302">        int int2 = correct_java_programs.GCD.gcd((int) ' ', (int) (byte) 10);</span>
+<span class="pc bpc" id="L1303" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 2 + &quot;'&quot;, int2 == 2);</span>
+<span class="fc" id="L1304">    }</span>
+
+    @Test
+    public void test663() throws Throwable {
+<span class="pc bpc" id="L1308" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L1309">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test663&quot;);</span>
+<span class="fc" id="L1310">        int int2 = correct_java_programs.GCD.gcd((int) (byte) 10, 32);</span>
+<span class="pc bpc" id="L1311" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 2 + &quot;'&quot;, int2 == 2);</span>
+<span class="fc" id="L1312">    }</span>
+
+    @Test
+    public void test664() throws Throwable {
+<span class="pc bpc" id="L1316" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L1317">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test664&quot;);</span>
+<span class="fc" id="L1318">        int int2 = correct_java_programs.GCD.gcd((int) (short) 1, 32);</span>
+<span class="pc bpc" id="L1319" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L1320">    }</span>
+
+    @Test
+    public void test665() throws Throwable {
+<span class="pc bpc" id="L1324" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L1325">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test665&quot;);</span>
+<span class="fc" id="L1326">        int int2 = correct_java_programs.GCD.gcd((int) (short) 10, (int) (short) 10);</span>
+<span class="pc bpc" id="L1327" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 10 + &quot;'&quot;, int2 == 10);</span>
+<span class="fc" id="L1328">    }</span>
+
+    @Test
+    public void test666() throws Throwable {
+<span class="pc bpc" id="L1332" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L1333">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test666&quot;);</span>
+<span class="fc" id="L1334">        int int2 = correct_java_programs.GCD.gcd((int) '4', 52);</span>
+<span class="pc bpc" id="L1335" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 52 + &quot;'&quot;, int2 == 52);</span>
+<span class="fc" id="L1336">    }</span>
+
+    @Test
+    public void test667() throws Throwable {
+<span class="pc bpc" id="L1340" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L1341">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test667&quot;);</span>
+<span class="fc" id="L1342">        int int2 = correct_java_programs.GCD.gcd((int) (byte) 1, 2);</span>
+<span class="pc bpc" id="L1343" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L1344">    }</span>
+
+    @Test
+    public void test668() throws Throwable {
+<span class="pc bpc" id="L1348" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L1349">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test668&quot;);</span>
+<span class="fc" id="L1350">        int int2 = correct_java_programs.GCD.gcd(32, (-1));</span>
+<span class="pc bpc" id="L1351" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + (-1) + &quot;'&quot;, int2 == (-1));</span>
+<span class="fc" id="L1352">    }</span>
+
+    @Test
+    public void test669() throws Throwable {
+<span class="pc bpc" id="L1356" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L1357">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test669&quot;);</span>
+<span class="fc" id="L1358">        int int2 = correct_java_programs.GCD.gcd((int) (short) 100, 97);</span>
+<span class="pc bpc" id="L1359" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L1360">    }</span>
+
+    @Test
+    public void test670() throws Throwable {
+<span class="pc bpc" id="L1364" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L1365">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test670&quot;);</span>
+<span class="fc" id="L1366">        int int2 = correct_java_programs.GCD.gcd((int) (byte) -1, 97);</span>
+<span class="pc bpc" id="L1367" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + (-1) + &quot;'&quot;, int2 == (-1));</span>
+<span class="fc" id="L1368">    }</span>
+
+    @Test
+    public void test671() throws Throwable {
+<span class="pc bpc" id="L1372" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L1373">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test671&quot;);</span>
+<span class="fc" id="L1374">        int int2 = correct_java_programs.GCD.gcd((int) (byte) -1, 35);</span>
+<span class="pc bpc" id="L1375" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + (-1) + &quot;'&quot;, int2 == (-1));</span>
+<span class="fc" id="L1376">    }</span>
+
+    @Test
+    public void test672() throws Throwable {
+<span class="pc bpc" id="L1380" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L1381">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test672&quot;);</span>
+<span class="fc" id="L1382">        int int2 = correct_java_programs.GCD.gcd((int) (short) 100, (int) (short) 10);</span>
+<span class="pc bpc" id="L1383" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 10 + &quot;'&quot;, int2 == 10);</span>
+<span class="fc" id="L1384">    }</span>
+
+    @Test
+    public void test673() throws Throwable {
+<span class="pc bpc" id="L1388" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L1389">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test673&quot;);</span>
+<span class="fc" id="L1390">        int int2 = correct_java_programs.GCD.gcd(100, (int) ' ');</span>
+<span class="pc bpc" id="L1391" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 4 + &quot;'&quot;, int2 == 4);</span>
+<span class="fc" id="L1392">    }</span>
+
+    @Test
+    public void test674() throws Throwable {
+<span class="pc bpc" id="L1396" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L1397">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test674&quot;);</span>
+<span class="fc" id="L1398">        int int2 = correct_java_programs.GCD.gcd((int) 'a', 10);</span>
+<span class="pc bpc" id="L1399" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 1 + &quot;'&quot;, int2 == 1);</span>
+<span class="fc" id="L1400">    }</span>
+
+    @Test
+    public void test675() throws Throwable {
+<span class="pc bpc" id="L1404" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L1405">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test675&quot;);</span>
+<span class="fc" id="L1406">        int int2 = correct_java_programs.GCD.gcd(1, (-1));</span>
+<span class="pc bpc" id="L1407" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + (-1) + &quot;'&quot;, int2 == (-1));</span>
+<span class="fc" id="L1408">    }</span>
+
+    @Test
+    public void test676() throws Throwable {
+<span class="pc bpc" id="L1412" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L1413">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test676&quot;);</span>
+<span class="fc" id="L1414">        int int2 = correct_java_programs.GCD.gcd((int) (short) -1, (int) (short) 10);</span>
+<span class="pc bpc" id="L1415" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + (-1) + &quot;'&quot;, int2 == (-1));</span>
+<span class="fc" id="L1416">    }</span>
+
+    @Test
+    public void test677() throws Throwable {
+<span class="pc bpc" id="L1420" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L1421">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test677&quot;);</span>
+<span class="fc" id="L1422">        int int2 = correct_java_programs.GCD.gcd(2, 4);</span>
+<span class="pc bpc" id="L1423" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 2 + &quot;'&quot;, int2 == 2);</span>
+<span class="fc" id="L1424">    }</span>
+
+    @Test
+    public void test678() throws Throwable {
+<span class="pc bpc" id="L1428" title="1 of 2 branches missed.">        if (debug)</span>
+<span class="nc" id="L1429">            System.out.format(&quot;%n%s%n&quot;, &quot;RandoopRegressionTest1.test678&quot;);</span>
+<span class="fc" id="L1430">        int int2 = correct_java_programs.GCD.gcd((int) (short) 100, 52);</span>
+<span class="pc bpc" id="L1431" title="1 of 2 branches missed.">        org.junit.Assert.assertTrue(&quot;'&quot; + int2 + &quot;' != '&quot; + 4 + &quot;'&quot;, int2 == 4);</span>
+<span class="fc" id="L1432">    }</span>
+}
+
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>

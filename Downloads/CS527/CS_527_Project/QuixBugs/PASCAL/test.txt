@@ -1,0 +1,15 @@
+PASCAL_TEST.test_1
+PASCAL_TEST.test_2
+PASCAL_TEST.test_3
+PASCAL_TEST.test_4
+RandoopRegressionTest0.test06
+RandoopRegressionTest0.test08
+RandoopRegressionTest0.test09
+RandoopRegressionTest0.test10
+RandoopRegressionTest0.test11
+RandoopRegressionTest0.test12
+RandoopRegressionTest0.test13
+RandoopRegressionTest0.test16
+RandoopRegressionTest0.test17
+RandoopRegressionTest0.test19
+PASCAL_ESTest.test1

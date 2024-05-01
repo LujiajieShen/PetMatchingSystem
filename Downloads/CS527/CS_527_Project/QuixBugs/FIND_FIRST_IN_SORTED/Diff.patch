@@ -1,0 +1,17 @@
+--- Buggy-Version/java_programs/FIND_FIRST_IN_SORTED.java	2024-02-05 18:12:59.000000000 -0600
++++ Patched-Version/correct_java_programs/FIND_FIRST_IN_SORTED.java	2024-02-05 18:12:59.000000000 -0600
+@@ -1,4 +1,4 @@
+-package java_programs;
++package correct_java_programs;
+ import java.util.*;
+ 
+ /*
+@@ -16,7 +16,7 @@
+         int lo = 0;
+         int hi = arr.length;
+ 
+-        while (lo <= hi) {
++        while (lo < hi) {
+             int mid = (lo + hi) / 2; // check if this is floor division
+ 
+             if (x == arr[mid] && (mid == 0 || x != arr[mid-1])) {

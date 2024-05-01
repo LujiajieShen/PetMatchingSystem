@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="correct_java_programs.LONGEST_COMMON_SUBSEQUENCE_ESTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2024-04-08T16:20:45" hostname="MacBook-Pro-685.local" time="0.065">
+  <properties/>
+  <testcase name="test07" classname="correct_java_programs.LONGEST_COMMON_SUBSEQUENCE_ESTest" time="0.016"/>
+  <testcase name="test06" classname="correct_java_programs.LONGEST_COMMON_SUBSEQUENCE_ESTest" time="0.002"/>
+  <testcase name="test09" classname="correct_java_programs.LONGEST_COMMON_SUBSEQUENCE_ESTest" time="0.003"/>
+  <testcase name="test08" classname="correct_java_programs.LONGEST_COMMON_SUBSEQUENCE_ESTest" time="0.002"/>
+  <testcase name="test10" classname="correct_java_programs.LONGEST_COMMON_SUBSEQUENCE_ESTest" time="0.005"/>
+  <testcase name="test01" classname="correct_java_programs.LONGEST_COMMON_SUBSEQUENCE_ESTest" time="0.002"/>
+  <testcase name="test00" classname="correct_java_programs.LONGEST_COMMON_SUBSEQUENCE_ESTest" time="0.004"/>
+  <testcase name="test03" classname="correct_java_programs.LONGEST_COMMON_SUBSEQUENCE_ESTest" time="0.012"/>
+  <testcase name="test02" classname="correct_java_programs.LONGEST_COMMON_SUBSEQUENCE_ESTest" time="0.005"/>
+  <testcase name="test05" classname="correct_java_programs.LONGEST_COMMON_SUBSEQUENCE_ESTest" time="0.007"/>
+  <testcase name="test04" classname="correct_java_programs.LONGEST_COMMON_SUBSEQUENCE_ESTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/Users/eeeeeeshen/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-nop/1.7.32/e5349fc363dbc19c60cb12b10120b4c4f9e4aca8/slf4j-nop-1.7.32.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/Users/eeeeeeshen/.gradle/caches/modules-2/files-2.1/org.evosuite/evosuite-master/1.0.6/14e9500b050a0816d5aec368e2391d99cbb53dee/evosuite-master-1.0.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.helpers.NOPLoggerFactory]
+]]></system-err>
+</testsuite>

@@ -1,0 +1,17 @@
+--- Buggy-Version/java_programs/GCD.java	2024-02-05 18:12:59.000000000 -0600
++++ Patched-Version/correct_java_programs/GCD.java	2024-02-05 18:12:59.000000000 -0600
+@@ -1,4 +1,4 @@
+-package java_programs;
++package correct_java_programs;
+ import java.util.*;
+ 
+ /*
+@@ -16,7 +16,7 @@
+         if (b == 0) {
+             return a;
+         } else {
+-            return gcd(a % b, b);
++            return gcd(b, a%b);
+         }
+     }
+ }

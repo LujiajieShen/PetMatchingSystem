@@ -1,0 +1,10 @@
+FIND_FIRST_IN_SORTED_TEST.test_1
+FIND_FIRST_IN_SORTED_TEST.test_2
+FIND_FIRST_IN_SORTED_TEST.test_4
+RandoopRegressionTest0.test0005
+RandoopRegressionTest0.test0006
+RandoopRegressionTest0.test0007
+RandoopRegressionTest0.test0008
+RandoopRegressionTest0.test0009
+RandoopRegressionTest0.test0010
+FIND_FIRST_IN_SORTED_ESTest.test5

@@ -1,0 +1,17 @@
+--- Buggy-Version/java_programs/PASCAL.java	2024-02-05 18:12:59.000000000 -0600
++++ Patched-Version/correct_java_programs/PASCAL.java	2024-02-05 18:12:59.000000000 -0600
+@@ -1,4 +1,4 @@
+-package java_programs;
++package correct_java_programs;
+ import java.util.*;
+ 
+ /*
+@@ -19,7 +19,7 @@
+ 
+         for (int r=1; r<n; r++) {
+             ArrayList<Integer> row = new ArrayList<Integer>();
+-            for (int c=0; c<r; c++) {
++            for (int c=0; c<r+1; c++) {
+                 int upleft, upright;
+                 if (c > 0) {
+                     upleft = rows.get(r-1).get(c-1);

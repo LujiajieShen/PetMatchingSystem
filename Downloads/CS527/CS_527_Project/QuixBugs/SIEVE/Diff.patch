@@ -1,0 +1,17 @@
+--- Buggy-Version/java_programs/SIEVE.java	2024-02-05 18:12:59.000000000 -0600
++++ Patched-Version/correct_java_programs/SIEVE.java	2024-02-05 18:12:59.000000000 -0600
+@@ -1,4 +1,4 @@
+-package java_programs;
++package correct_java_programs;
+ import java.util.*;
+ 
+ /*
+@@ -38,7 +38,7 @@
+     public static ArrayList<Integer> sieve(Integer max) {
+         ArrayList<Integer> primes = new ArrayList<Integer>();
+         for (int n=2; n<max+1; n++) {
+-            if (any(list_comp(n, primes))) {
++            if (all(list_comp(n, primes))) {
+                 primes.add(n);
+             }
+         }

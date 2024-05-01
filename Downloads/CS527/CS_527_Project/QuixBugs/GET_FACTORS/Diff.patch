@@ -1,0 +1,17 @@
+--- Buggy-Version/java_programs/GET_FACTORS.java	2024-02-05 18:12:59.000000000 -0600
++++ Patched-Version/correct_java_programs/GET_FACTORS.java	2024-02-05 18:12:59.000000000 -0600
+@@ -1,4 +1,4 @@
+-package java_programs;
++package correct_java_programs;
+ import java.util.*;
+ 
+ /*
+@@ -24,6 +24,7 @@
+                 return prepend;
+             }
+         }
+-        return new ArrayList<Integer>();
++
++        return new ArrayList<Integer>(Arrays.asList(n));
+     }
+ }

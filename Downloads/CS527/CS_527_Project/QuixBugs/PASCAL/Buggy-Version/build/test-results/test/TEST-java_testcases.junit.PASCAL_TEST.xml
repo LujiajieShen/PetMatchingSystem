@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="java_testcases.junit.PASCAL_TEST" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-04-26T02:59:37" hostname="MacBook-Pro-685.local" time="0.005">
+  <properties/>
+  <testcase name="test_0" classname="java_testcases.junit.PASCAL_TEST" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
